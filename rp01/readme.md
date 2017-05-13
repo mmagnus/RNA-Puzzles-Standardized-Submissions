@@ -1,5 +1,14 @@
+RNA-Puzzle 01
+-----------------------------------------------------------------------------
 
-   for i in `ls *.pdb`; do rna_pdb_tools.py --get_seq $i; echo ''; done > seq.txt
+      > 1_solution_0_rpr A:1-23
+      CCGCCGCGCCAUGCCUGUGGCGG
+      > 1_solution_0_rpr B:1-23
+      CCGCCGCGCCAUGCCUGUGGCGG
+
+`seq.txt`:
+
+      for i in `ls *.pdb`; do rna_pdb_tools.py --get_seq $i; echo ''; done > seq.txt
 
 Split one chain into two:
 
