@@ -1,6 +1,8 @@
 RNA-Puzzle 14 (free)
 -----------------------------------------------------------------------------
 
+Mind the gap in the native.
+
 ```
 > 14_5ddo_free_solution_rpr A:1-21 25-61
 CGUUGGCCCAGGAAACUGGGUAGUAAGGUCCAUUGCACUCCGGGCCUGAAGCAACGCU
@@ -8,10 +10,6 @@ CGUUGGCCCAGGAAACUGGGUAGUAAGGUCCAUUGCACUCCGGGCCUGAAGCAACGCU
 > 14_BujnickiPostExp_1_rpr A:1-61
 CGUUGGCCCAGGAAACUGGGUGGAAGUAAGGCCCAUUGCACUCCGGGCCUGAAGCAACGCU
 ```
-
-Manual:
-
-- remove a protein from `14_BujnickiPostExp_1_rpr.pdb`
 
 rpr:
 
