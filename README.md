@@ -1,4 +1,6 @@
-# RNA-Puzzles-submission
+# RNA-Puzzles-Normalized-submissions
+
+Look for other our projects at https://github.com/RNA-Puzzles
 
 Curated structures submitted to the RNA-Puzzles experiment, processed manually and with https://github.com/mmagnus/rna-pdb-tools .
 ```
