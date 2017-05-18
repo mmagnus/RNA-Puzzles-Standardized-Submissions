@@ -5,6 +5,9 @@ Look for other our projects at https://github.com/RNA-Puzzles
 [![Twitter Follow](http://img.shields.io/twitter/follow/rna_pdb_tools.svg?style=social&label=Follow)](https://twitter.com/rna_pdb_tools)
 
 Curated structures submitted to the RNA-Puzzles experiment, processed manually and with https://github.com/mmagnus/rna-pdb-tools .
+
+> Magnus, Marcin. (2016). rna-pdb-tools. Zenodo. 10.5281/zenodo.60933 
+
 ```
 Miao, Zhichao, et al. 
 "RNA-Puzzles Round III: 3D RNA structure prediction of five riboswitches and one ribozyme." 
