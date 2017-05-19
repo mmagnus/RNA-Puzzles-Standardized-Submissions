@@ -1,7 +1,7 @@
 RNA-Puzzle 02
 -----------------------------------------------------------------------------
 
-Crazy manully fixing with PyMOL.
+Crazy manually fixing with PyMOL.
 
 There is a gap in the native, chain G:
 
