@@ -4,9 +4,11 @@ Look for other our projects at https://github.com/RNA-Puzzles
 
 [![Twitter Follow](http://img.shields.io/twitter/follow/rna_pdb_tools.svg?style=social&label=Follow)](https://twitter.com/rna_pdb_tools)
 
+[![tag](https://img.shields.io/github/release/mmagnus/RNA-Puzzles-Normalized-submissions.svg)](https://github.com/mmagnus/RNA-Puzzles-Normalized-submissions/releases) [![DOI](https://zenodo.org/badge/doi/10.5281/zenodo.60933.svg)](http://dx.doi.org/10.5281/zenodo.60933)  
+
 Curated structures submitted to the RNA-Puzzles experiment, processed manually and with https://github.com/mmagnus/rna-pdb-tools .
 
-> Magnus, Marcin. (2016). rna-pdb-tools. Zenodo. 10.5281/zenodo.60933 
+Reference of the RNA Puzzles experiment:
 
 ```
 Miao, Zhichao, et al. 
@@ -21,6 +23,7 @@ Cruz, José Almeida, et al.
 "RNA-Puzzles: a CASP-like evaluation of RNA three-dimensional structure prediction." 
 Rna 18.4 (2012): 610-625.
 ```
+
 The RNA Puzzles:
 
 - Puzzle  1: RNA dimer of a regulatory element from human thymidylate synthase mRNA
