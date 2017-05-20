@@ -17,7 +17,7 @@ t-box
 ```
 ---UGCGAUGAGAAGAAGAGUAUUAAGGAUUUACUAUGAUUAGCGACUCUAGGAUAGUGAAAGCUAGAGGAUAGUAACCUUAAGAAGGCACUUCGAGCA # target
 GGGUGCGAUGAGAAGAAGAGUAUUAAGGAUUUACUAUGAUUAGCGACUCUAGGAUAGUGAAAGCUAGAGGAUAGUAACCUUAAGAAGGCACUUCGAGCACCC # native
-xxx                                                                                                xxx # trimmed new native
+xxx                                                                                                xxx # trimmed the new native
 (((                                                                                                )))
 ```
 
@@ -29,13 +29,24 @@ t-rna
  GCGGAAGUAGUUCAGUGGUAGAACACCACCUUGCCAAGGUGGGGGUCGCGGGUUCGAAUCCCGUCUUCCGCUCCA---- # model
  ....(((..((((.......)))).(((...........)))......((((.......)))).)))........
      (((..((((.......)))).(((...........)))......((((.......)))).)))........
- ----x                                                             xxxxxxxxxxxxx # xtrimmed
+ ----x                                                             xxxxxxxxxxxxx # xtrimmed the new native
       6                                                           66
 ```
 
 Manual: Bujnicki swap chains.
 
-Rmsd:
+In some cases it important to keep structure exactly the same as the native. In trimmed_models models, you can find structure that have only parts that are in common between the models and the native.
+
+	rna_pdb_tools.py --delete B:1-5 --inplace *.pdb
+	rna_pdb_tools.py --delete B:67-75 --inplace *.pdb	
+	rna_pdb_tools.py --get_seq *.pdb > seqs.txt
+
+Calculate Interaction Network Fidelity (INF) etc using ClaRNA.
+	
+	$ trimmed_models$ rna_calc_inf.py -t 10_0_solution_4LCK_rpr.pdb *.pdb
+	mv inf.csv ../
+
+Calculate Rmsd:
 
 ```
 rna_calc_rmsd.py -t 10_0_solution_4LCK_rpr.pdb --target_selection 'A:1-96+B:6-66' --model_selection 'A:1-96+B:6-66' *.pdb
