@@ -6,6 +6,8 @@ Look for other our projects at https://github.com/RNA-Puzzles
 
 Curated structures submitted to the RNA-Puzzles experiment, processed manually @mmagnus and with https://github.com/mmagnus/rna-pdb-tools .
 
+![](docs/qKPVoPxDmq.gif)
+
 Reference of the RNA Puzzles experiment:
 
 ```
