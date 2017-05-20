@@ -1,0 +1,44 @@
+Classifier: Clarna
+chains:  A 1 185
+A   14   A   49          bp A A                 WH_tran   0.7559
+A   16   A   43          bp C G                  WW_cis   0.9486
+A   17   A   42          bp U G                  WW_cis   0.8676
+A   18   A   41          bp G C                  WW_cis   0.9083
+A   19   A   40          bp C G                  WW_cis   0.9250
+A   20   A   39          bp G A                  WW_cis   0.8971
+A   21   A   38          bp A A                  WW_cis   0.6387
+A   23   A   37          bp G C                  WW_cis   0.8715
+A   24   A   36          bp G C                  WW_cis   0.9204
+A   25   A   35          bp G C                  WW_cis   0.9126
+A   26   A   34          bp C G                  WW_cis   0.9005
+A   27   A   97          bp G C                  WS_cis   0.6902
+A   30   A   94          bp G C                  WW_cis   0.9233
+A   31   A   93          bp U A                  WW_cis   0.8996
+A   32   A   92          bp C G                  WW_cis   0.9364
+A   33   A   91          bp G U                  WW_cis   0.8200
+A   58   A  116          bp C G                  WW_cis   0.9367
+A   59   A  115          bp U A                  WW_cis   0.8763
+A   60   A  114          bp C G                  WW_cis   0.9410
+A   61   A  112          bp A U                  WW_cis   0.9361
+A   62   A  111          bp C G                  WW_cis   0.9327
+A   63   A  110          bp C G                  WW_cis   0.9508
+A   64   A  109          bp U U                  WW_cis   0.8257
+A   66   A   80          bp C G                  WW_cis   0.9092
+A   67   A   79          bp A U                  WW_cis   0.9073
+A   67   A  106          bp A G                  SS_cis   0.6707
+A   68   A   78          bp A U                  WW_cis   0.9066
+A   69   A   77          bp U A                  WW_cis   0.9366
+A   70   A   76          bp G C                  WW_cis   0.8983
+A   80   A  107          bp G A                 SS_tran   0.8087
+A   80   A  106          bp G G                 SW_tran   0.7703
+A   82   A  104          bp C G                  WW_cis   0.9041
+A   83   A  103          bp G U                  WW_cis   0.8498
+A   84   A  102          bp U A                  WW_cis   0.9491
+A   85   A  101          bp A U                  WW_cis   0.9385
+A   86   A  100          bp G U                  WW_cis   0.8535
+A   87   A   99          bp C G                  WW_cis   0.9202
+A   88   A   98          bp A U                  WW_cis   0.9391
+A   89   A   97          bp G C                  WW_cis   0.8635
+A   90   A   96          bp U A                  WW_cis   0.9163
+A  105   A  108          bp U U                 WH_tran   0.7215
+

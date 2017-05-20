@@ -1,7 +1,7 @@
 RNA-Puzzle 07
 -----------------------------------------------------------------------------
 
-This is an intertwined dimer formed by an exchange of substrate helices. Since not all groups provided models of dimers, I (@mmagnus) focused on getting at least the chain A in order to be able to compare models to the native. It might not be what you exactly want dear user.
+This is an intertwined dimer formed by an exchange of substrate helices. Since not all groups provided models of dimers, I (@mmagnus) focused on getting at least the chain A in order to be able to compare models to the native. It might not be what you exactly want dear user. The models only with chain A inside are stored in `models_only_with_chain_A` with calculated rmsds and infs ([1]).
 
 ```
 > 7_0_soluton_4r4v_rpr A:1-185
@@ -11,7 +11,7 @@ GCGCUGUGUCGCAAUCUGCGAAGGGCGUCGUCGGCCCAAGCGGUAGUAAGCAGGGAACUCACCUCCAAUGAAACACAUUG
 GCGCUGUGUCGCAAUCUGCGAAGGGCGUCGUCGGCCCAAGCGGUAGUAAGCAGGGAACUCACCUCCAAUGAAACACAUUGUCGUAGCAGUUGACUACUGUUAUGUGAUUGGUAGAGGCUAAGUGACGGUAUUGGCGUAAGCCAAUACCGCAGCACAGCACAAGCCCGCUUGCGAGAUUACAGCGC
 ```
 
-Manual:
+Manual manipulations:
 
 - Ding.. long list of atoms at the beggning
 
@@ -90,3 +90,10 @@ Rmsd of the A chain:
     7_Major_10_rpr.pdb 31.61 3956
     # of atoms used: 3956
     csv was created!  rmsds.csv
+
+-------------------------------------------------------------------------------
+
+[1] 
+
+	rna_calc_rmsd.py -t 7_0_soluton_4r4v_rpr_only_A.pdb *.pdb
+	rna_calc_inf.py -t 7_0_soluton_4r4v_rpr_only_A.pdb *.pdb
