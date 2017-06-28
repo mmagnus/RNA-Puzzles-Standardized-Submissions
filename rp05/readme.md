@@ -4,9 +4,11 @@ RNA-Puzzle 05
 ```
 > 5_0_solution_4p8z_rpr A:1-188
 GGUUGGGUUGGGAAGUAUCAUGGCUAAUCACCAUGAUGCAAUCGGGUUGAACACUUAAUUGGGUUAAAACGGUGGGGGACGAUCCCGUAACAUCCGUCCUAACGGCGACAGACUGCACGGCCCUGCCUCUUAGGUGUGUCCAAUGAACAGUCGUUCCGAAAGGAAGCAUCCGGUAUCCCAAGACAAUC
-
-> 5_adamiak_1_rpr A:1-188
+|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||.||||||||||||||||||||||||||||||||||||||||||||||||
 GGUUGGGUUGGGAAGUAUCAUGGCUAAUCACCAUGAUGCAAUCGGGUUGAACACUUAAUUGGGUUAAAACGGUGGGGGACGAUCCCGUAACAUCCGUCCUAACGGCGACAGACUGCACGGCCCUGCCUCUUAGGUGUGUUCAAUGAACAGUCGUUCCGAAAGGAAGCAUCCGGUAUCCCAAGACAAUC
+> target sequence (.e.g 5_adamiak_1_rpr A:1-188)
+
+! mind mismatch at position 140
 ```
 
 Edits:
@@ -25,7 +27,7 @@ Edits:
     [mm] rpr rna_pdb_tools.py --edit 'L:1-188>A:1-188' 5_xiao_1_rpr.pdb > 5_xiao_1_rpr.pdb1
     [mm] rpr rna_pdb_tools.py --edit 'L:1-188>A:1-188' 5_xiao_2_rpr.pdb > 5_xiao_2_rpr.pdb1
 
-Rmsd:
+Rmsd (there is a mismatch at position 140, so N of cytidine is superimposed on O of uridine):
 
 ```
 rna_calc_rmsd.py -t 5_0_solution_4p8z_rpr.pdb *.pdb
