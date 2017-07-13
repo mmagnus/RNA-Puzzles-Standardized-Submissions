@@ -1,6 +1,8 @@
 RNA-Puzzle 18
 -----------------------------------------------------------------------------
 
+Solution sequence vs target sequence:
+
 ```
 > 18_0_solution_5TPY_rpr A:1-71
 GGGUCAGGCCGGCGAAAGUCGCCACAGUUUGGGGAAAGCUGUGCAGCCUGUAACCCCCCCACGAAAGUGGG

@@ -1,6 +1,8 @@
 RNA-Puzzle 03 
 -----------------------------------------------------------------------------
 
+Solution sequence vs target sequence:
+
 ```
 > 3_solution_0_rpr A:1-84
 CUCUGGAGAGAACCGUUUAAUCGGUCGCCGAAGGAGCAAGCUCUGCGGAAACGCAGAGUGAAACUCUCAGGCAAAAGGACAGAG

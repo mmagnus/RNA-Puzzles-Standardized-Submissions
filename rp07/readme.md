@@ -1,7 +1,9 @@
 RNA-Puzzle 07
 -----------------------------------------------------------------------------
 
-This is an intertwined dimer formed by an exchange of substrate helices. Since not all groups provided models of dimers, I (@mmagnus) focused on getting at least the chain A in order to be able to compare models to the native. It might not be what you exactly want dear user. The models only with chain A inside are stored in `models_only_with_chain_A` with calculated rmsds and infs ([1]).
+This is an intertwined dimer formed by an exchange of substrate helices. Since not all groups provided models of dimers, I (@mmagnus) focused on getting at least the chain A in order to be able to compare models to the solution. It might not be what you exactly want dear user. The models only with chain A inside are stored in `models_only_with_chain_A` with calculated rmsds and infs ([1]).
+
+Solution sequence vs target sequence:
 
 ```
 > 7_0_soluton_4r4v_rpr A:1-185

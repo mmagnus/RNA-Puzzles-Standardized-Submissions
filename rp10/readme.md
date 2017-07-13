@@ -1,6 +1,8 @@
 RNA-Puzzle 10
 -----------------------------------------------------------------------------
 
+Solution sequence vs target sequence:
+
 ```
 > 10_0_solution_4LCK_rpr A:1-96
 UGCGAUGAGAAGAAGAGUAUUAAGGAUUUACUAUGAUUAGCGACUCUAGGAUAGUGAAAGCUAGAGGAUAGUAACCUUAAGAAGGCACUUCGAGCA
@@ -16,26 +18,26 @@ GCGGAAGUAGUUCAGUGGUAGAACACCACCUUGCCAAGGUGGGGGUCGCGGGUUCGAAUCCCGUCUUCCGCUCCA
 t-box
 ```
 ---UGCGAUGAGAAGAAGAGUAUUAAGGAUUUACUAUGAUUAGCGACUCUAGGAUAGUGAAAGCUAGAGGAUAGUAACCUUAAGAAGGCACUUCGAGCA # target
-GGGUGCGAUGAGAAGAAGAGUAUUAAGGAUUUACUAUGAUUAGCGACUCUAGGAUAGUGAAAGCUAGAGGAUAGUAACCUUAAGAAGGCACUUCGAGCACCC # native
-xxx                                                                                                xxx # trimmed the new native
+GGGUGCGAUGAGAAGAAGAGUAUUAAGGAUUUACUAUGAUUAGCGACUCUAGGAUAGUGAAAGCUAGAGGAUAGUAACCUUAAGAAGGCACUUCGAGCACCC # solution
+xxx                                                                                                xxx # trimmed the new solution
 (((                                                                                                )))
 ```
 
 t-rna
 
 ```
- ----GAGUAGUUCAGUGGUAGAACACCACCUUGCCAAGGUGGGGGUCGCGGGUUCGAAUCCCGUCUCGGGCGAAAGCCC # B # native
+ ----GAGUAGUUCAGUGGUAGAACACCACCUUGCCAAGGUGGGGGUCGCGGGUUCGAAUCCCGUCUCGGGCGAAAGCCC # B # solution
      (((..((((....{..)))).(((((..[[[..))))).....(((((..}....))))))))((((....))))
  GCGGAAGUAGUUCAGUGGUAGAACACCACCUUGCCAAGGUGGGGGUCGCGGGUUCGAAUCCCGUCUUCCGCUCCA---- # model
  ....(((..((((.......)))).(((...........)))......((((.......)))).)))........
      (((..((((.......)))).(((...........)))......((((.......)))).)))........
- ----x                                                             xxxxxxxxxxxxx # xtrimmed the new native
+ ----x                                                             xxxxxxxxxxxxx # xtrimmed the new solution
       6                                                           66
 ```
 
 Manual: Bujnicki swap chains.
 
-In some cases it important to keep structure exactly the same as the native. In trimmed_models models, you can find structure that have only parts that are in common between the models and the native.
+In some cases it important to keep structure exactly the same as the solution. In trimmed_models models, you can find structure that have only parts that are in common between the models and the solution.
 
 	rna_pdb_tools.py --delete B:1-5 --inplace *.pdb
 	rna_pdb_tools.py --delete B:67-75 --inplace *.pdb	

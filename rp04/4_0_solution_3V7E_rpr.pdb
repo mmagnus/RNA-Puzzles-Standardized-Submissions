@@ -1,9 +1,9 @@
-HEADER Generated with rna-pdb-tools
-HEADER ver ea5e310-dirty 
-HEADER https://github.com/mmagnus/rna-pdb-tools 
-HEADER Wed May 17 11:02:14 2017
-REMARK 000 Fixed atoms/residues:
-REMARK 000 -  add the whole base A in chain: C <Residue A het=  resseq=9 icode= > residue # 9
+REMARK 250 Generated with rna-pdb-tools
+REMARK 250 ver ea5e310-dirty 
+REMARK 250 https://github.com/mmagnus/rna-pdb-tools 
+REMARK 250 Wed May 17 11:02:14 2017
+REMARK 250 Fixed atoms/residues:
+REMARK 250 -  add the whole base A in chain: C <Residue A het=  resseq=9 icode= > residue # 9
 ATOM      1  P     G C   1      42.279  16.296 -16.784  1.00 11.89           P
 ATOM      2  OP1   G C   1      43.104  15.245 -17.427  1.00 14.35           O
 ATOM      3  OP2   G C   1      41.210  15.933 -15.840  1.00 12.68           O

@@ -1,6 +1,8 @@
 RNA-Puzzle 19
 -----------------------------------------------------------------------------
 
+Solution sequence vs target sequence:
+
 ```
 > 19_5t5a_solution_0_rpr A:1-40
 GCAGGGCAAGGCCCAGUCCCGUGCAAGCCGGGACCGCCCC
@@ -13,7 +15,7 @@ GCAGGGCAAGGCCCAGUCCCGUGCAAGCCGGGACCGCCCC
 GGGGCGCGGCGCUCAUUCCUGC
 ```
 
-Added missing O2' (this is deoxyribonucleoside) to the native. Split the native into chain A and B, like the models.
+Added missing O2' (this is deoxyribonucleoside) to the solution. Split the solution into chain A and B, like the models.
 
 ```
 HEADER Generated with rna-pdb-tools

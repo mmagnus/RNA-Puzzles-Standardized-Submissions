@@ -1,6 +1,8 @@
 RNA-Puzzle 08
 -----------------------------------------------------------------------------
 
+Solution sequence vs target sequence:
+
 ```
 > 8_0_solution_4L81_rpr A:1-96
 GGAUCACGAGGGGGAGACCCCGGCAACCUGGGACGGACACCCAAGGUGCUCACACCGGAGACGGUGGAUCCGGCCCGAGAGGGCAACGAAGUCCGU

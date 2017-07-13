@@ -1,10 +1,7 @@
-HEADER Generated with rna-pdb-tools
-HEADER ver fatal: Not a git repository (or any parent up to mount point /Volumes/mqaprna)
-Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set). 
-HEADER https://github.com/mmagnus/rna-pdb-tools 
-HEADER Sat Mar  4 21:41:15 2017
-HEADER --edit X:1-23>A:1-23,X:32-54>B:1-23
-['X:1-23>A:1-23', 'X:32-54>B:1-23']
+REMARK 250 Generated with rna-pdb-tools
+REMARK 250 https://github.com/mmagnus/rna-pdb-tools 
+REMARK 250 Sat Mar  4 21:41:15 2017
+REMARK 250 --edit X:1-23>A:1-23,X:32-54>B:1-23
 ATOM      1  P     C A   1     -18.106   1.092  69.917  1.00 46.84           P
 ATOM      2  OP1   C A   1     -18.208   1.984  68.722  1.00 50.38           O
 ATOM      3  OP2   C A   1     -17.233  -0.103  69.848  1.00 43.27           O

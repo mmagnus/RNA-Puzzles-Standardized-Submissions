@@ -1,9 +1,9 @@
-HEADER Generated with rna-pdb-tools
-HEADER ver ea5e310-dirty 
-HEADER https://github.com/mmagnus/rna-pdb-tools 
-HEADER Tue May 16 11:43:45 2017
-REMARK 000 Fixed atoms/residues:
-REMARK 000 -  add O2'  in chain: A <Residue G het=  resseq=57 icode= > residue # 53
+REMARK 250 Generated with rna-pdb-tools
+REMARK 250 ver ea5e310-dirty 
+REMARK 250 https://github.com/mmagnus/rna-pdb-tools 
+REMARK 250 Tue May 16 11:43:45 2017
+REMARK 250 Fixed atoms/residues:
+REMARK 250 -  add O2'  in chain: A <Residue G het=  resseq=57 icode= > residue # 53
 ATOM      1  P     C A   1     -29.720 -19.750   3.190  1.00183.16           P
 ATOM      2  OP1   C A   1     -28.490 -20.280   2.531  1.00180.35           O
 ATOM      3  OP2   C A   1     -29.638 -18.728   4.275  1.00185.39           O

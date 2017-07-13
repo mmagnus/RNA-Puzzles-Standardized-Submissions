@@ -1,6 +1,8 @@
 RNA-Puzzle 15
 -----------------------------------------------------------------------------
 
+Solution sequence vs target sequence:
+
 ```
 > 15_RW2DAS1_9_rpr A:1-48
 GGGUACUUAAGCCCACUGAUGAGUCGCUGGGAUGCGACGAAACGCCCA

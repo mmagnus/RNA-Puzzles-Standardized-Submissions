@@ -1,10 +1,10 @@
 RNA-Puzzle 13
 -----------------------------------------------------------------------------
 
-The alignment:
+Solution sequence vs target sequence:
 
 ```
- GGGUCGUGACUGGCGAACAGGUGGGAAACCACCGGGGAGCGACCC-----------GCCGCCCGCCUGGGC # the native A:1-48+57-71
+ GGGUCGUGACUGGCGAACAGGUGGGAAACCACCGGGGAGCGACCC-----------GCCGCCCGCCUGGGC # solution A:1-48+57-71
  GGGUCGUGACUGGCGAACAGGUGGGAAACCACCGGGGAGCGACCCCGGCAUCGAUAGCCGCCCGCCUGGGC # target A:1-71
 ```
 

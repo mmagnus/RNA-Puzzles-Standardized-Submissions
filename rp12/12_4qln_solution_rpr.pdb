@@ -1,9 +1,8 @@
-HEADER Generated with rna-pdb-tools
-HEADER ver None 
-HEADER https://github.com/mmagnus/rna-pdb-tools 
-HEADER Fri May 12 21:32:40 2017
-REMARK 000 Missing atoms:
-REMARK 000  + O6 A <Residue G het=  resseq=21 icode= > residue # 19
+REMARK 250 Generated with rna-pdb-tools
+REMARK 250 https://github.com/mmagnus/rna-pdb-tools 
+REMARK 250 Fri May 12 21:32:40 2017
+REMARK 250 Missing atoms:
+REMARK 250  + O6 A <Residue G het=  resseq=21 icode= > residue # 19
 ATOM      1  P     G A   2     -22.734 -56.718  -9.817  1.00288.85           P
 ATOM      2  OP1   G A   2     -22.054 -56.489  -8.515  1.00290.33           O
 ATOM      3  OP2   G A   2     -23.493 -57.981 -10.031  1.00294.66           O

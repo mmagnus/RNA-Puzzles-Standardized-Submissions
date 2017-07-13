@@ -3,12 +3,13 @@ RNA-Puzzle 02
 
 Crazy manually fixing with PyMOL.
 
-There is a gap in the native, chain G:
+There is a gap in the solution, chain G:
 
     > 2_0_solution G:1-10 13-15
     CCGGAGGAACCUG
 
-The native vs models:
+
+Solution sequence vs target sequence:
 
 ```
 > 2_0_solution A:1-15

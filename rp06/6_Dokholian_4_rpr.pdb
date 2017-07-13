@@ -1,7 +1,7 @@
-HEADER Generated with rna-pdb-tools
-HEADER ver ea5e310-dirty 
-HEADER https://github.com/mmagnus/rna-pdb-tools 
-HEADER Wed May 17 13:59:53 2017
+REMARK 250 Generated with rna-pdb-tools
+REMARK 250 ver ea5e310-dirty 
+REMARK 250 https://github.com/mmagnus/rna-pdb-tools 
+REMARK 250 Wed May 17 13:59:53 2017
 ATOM      1  P     C A   1      53.913  70.087  23.243  1.00  0.00           P
 ATOM      2  OP1   C A   1      52.830  70.511  22.291  1.00  0.00           O
 ATOM      3  OP2   C A   1      53.552  69.168  24.331  1.00  0.00           O

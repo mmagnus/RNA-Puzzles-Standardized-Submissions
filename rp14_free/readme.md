@@ -1,7 +1,7 @@
 RNA-Puzzle 14 (free)
 -----------------------------------------------------------------------------
 
-Mind the gap in the native.
+Solution sequence vs target sequence - mind the gap in the solution.
 
 ```
 > 14_5ddo_free_solution_rpr A:1-21 25-61

@@ -1,6 +1,8 @@
 RNA-Puzzle 14 (bound)
 -----------------------------------------------------------------------------
 
+Solution sequence vs target sequence:
+
 ```
 > 14_5ddp_bound_solution_rpr A:1-61
 CGUUGACCCAGGAAACUGGGCGGAAGUAAGGUCCAUUGCACUCCGGGCCUGAAGCAACGCG

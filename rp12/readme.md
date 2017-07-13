@@ -1,7 +1,7 @@
 RNA-Puzzle 12
 -----------------------------------------------------------------------------
 
-The natives vs the target sequence provided. Mind the gaps and missing atom `A/21/O6`.
+The solution vs the target sequence provided. Mind the gaps and missing atom `A/21/O6`.
 
 ```
 > 12_4qln_solution_rpr A:2-16 18-34 39-123

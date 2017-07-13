@@ -1,10 +1,10 @@
 RNA-Puzzle 17
 -----------------------------------------------------------------------------
 
-Alignment:
+Solution sequence vs target sequence:
 
 ```
-CGUGGUUAGGGCCACGUUAAAUAGUUGCUUAAGCCCUAAGCGUUGAU----AUCAGGUGCAA # native
+CGUGGUUAGGGCCACGUUAAAUAGUUGCUUAAGCCCUAAGCGUUGAU----AUCAGGUGCAA # solution
 CGUGGUUAGGGCCACGUUAAAUAGUUGCUUAAGCCCUAAGCGUUGAUAAAUAUCAGGUGCAA # target seq
 ```
 
@@ -16,7 +16,7 @@ CGUGGUUAGGGCCACGUUAAAUAGUUGCUUAAGCCCUAAGCGUUGAUAUCAGGUGCAA
 CGUGGUUAGGGCCACGUUAAAUAGUUGCUUAAGCCCUAAGCGUUGAUAAAUAUCAGGUGCAA
 ```
 
-Added missing O2' (this is deoxyribonucleoside) to the native.
+Added missing O2' (this is deoxyribonucleoside) to the solution.
 
 ```
 head 17_5k7c_solution_rpr.pdb

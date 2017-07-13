@@ -1,6 +1,8 @@
 RNA-Puzzle 01
 -----------------------------------------------------------------------------
 
+Solution sequence vs target sequence:
+
       > 1_solution_0_rpr A:1-23
       CCGCCGCGCCAUGCCUGUGGCGG
       > 1_solution_0_rpr B:1-23
