@@ -1,6 +1,8 @@
 v1.1 170713 
 ----------------------------------------------------------------
 
+Fix #3 Add missing models of rp14_bound of Bujnicki group (submitted with modified sequence (see the Bujnicki folder))
+
 Fix #1 and #2
 
 In readmes, `native` -> `solution`.
