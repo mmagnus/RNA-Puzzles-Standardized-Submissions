@@ -75,3 +75,22 @@ method: all-atom-built-in
 # of atoms used: 2094
 csv was created!  rmsds.csv
 ```
+
+```
+rna_calc_inf.py -t 2_0_solution.pdb *.pdb
+100% (13 of 13) |#####################################################################################################################################################| Elapsed Time: 0:02:11 ETA:  0:00:00csv was created!  inf.csv
+target                  fn                            inf_all  inf_stack  inf_WC  inf_nWC  sns_WC  ppv_WC  sns_nWC  ppv_nWC
+2_0_solution.pdb.outCR  2_0_solution.pdb.outCR        1.000    0.000      1.000   1.000    1.000   1.000   1.000    1.000
+2_0_solution.pdb.outCR  2_das_4_rpr.pdb.outCR         0.923    0.000      0.973   0.333    1.000   0.946   0.333    0.333
+2_0_solution.pdb.outCR  2_das_1_rpr.pdb.outCR         0.923    0.000      0.960   0.408    1.000   0.921   0.333    0.500
+2_0_solution.pdb.outCR  2_das_3_rpr.pdb.outCR         0.912    0.000      0.973   0.289    1.000   0.946   0.333    0.250
+2_0_solution.pdb.outCR  2_bujnicki_1_rpr.pdb.outCR    0.912    0.000      0.960   0.333    1.000   0.921   0.333    0.333
+2_0_solution.pdb.outCR  2_das_2_rpr.pdb.outCR         0.935    0.000      0.973   0.408    1.000   0.946   0.333    0.500
+2_0_solution.pdb.outCR  2_bujnicki_3_rpr.pdb.outCR    0.868    0.000      0.901   0.408    0.914   0.889   0.333    0.500
+2_0_solution.pdb.outCR  2_bujnicki_2_rpr.pdb.outCR    0.895    0.000      0.917   0.577    0.943   0.892   0.333    1.000
+2_0_solution.pdb.outCR  2_chen_1_rpr.pdb.outCR        0.905    0.000      0.943   0.000    0.943   0.943   0.000    0.000
+2_0_solution.pdb.outCR  2_santalucia_1_rpr.pdb.outCR  0.898    0.000      0.935   0.000    1.000   0.875   0.000    0.000
+2_0_solution.pdb.outCR  2_wildauer_1_rpr.pdb.outCR    0.890    0.000      0.928   0.000    0.914   0.941   0.000    0.000
+2_0_solution.pdb.outCR  2_dokholyan_1_rpr.pdb.outCR   0.909    0.000      0.932   0.577    0.971   0.895   0.333    1.000
+2_0_solution.pdb.outCR  2_das_5_rpr.pdb.outCR         0.921    0.000      0.973   0.000    1.000   0.946   0.000    0.000
+```

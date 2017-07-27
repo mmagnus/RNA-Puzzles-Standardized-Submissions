@@ -1,0 +1,41 @@
+Classifier: Clarna
+chains:  A 1 15 B 1 10 C 1 15 D 1 10 E 1 15 F 1 10 G 1 15 H 1 10
+B    1   G    4          bp C G                  WW_cis   0.8987
+E    1   H    4          bp C G                  WW_cis   0.9020
+G    1   B    4          bp C G                  WW_cis   0.9320
+D    1   A    4          bp C G                  WW_cis   0.9169
+A    1   D    4          bp C G                  WW_cis   0.9172
+C    1   F    4          bp C G                  WW_cis   0.9018
+H    1   E    4          bp C G                  WW_cis   0.8904
+F    1   C    4          bp C G                  WW_cis   0.8723
+A    2   D    3          bp C G                  WW_cis   0.8998
+G    2   B    3          bp C G                  WW_cis   0.9186
+D    2   A    3          bp C G                  WW_cis   0.8688
+E    2   H    3          bp C G                  WW_cis   0.9437
+F    2   C    3          bp C G                  WW_cis   0.9180
+H    2   E    3          bp C G                  WW_cis   0.9139
+C    2   F    3          bp C G                  WW_cis   0.9204
+B    2   G    3          bp C G                  WW_cis   0.9095
+H    5   G   15          bp C G                  WW_cis   0.9061
+E    5   F   10          bp A U                  WW_cis   0.9412
+A    5   B   10          bp A U                  WW_cis   0.8133
+F    5   E   15          bp C G                  WW_cis   0.9272
+B    5   A   15          bp C G                  WW_cis   0.9317
+D    5   C   15          bp C G                  WW_cis   0.8965
+G    5   H   10          bp A U                  WW_cis   0.9069
+C    5   D   10          bp A U                  WW_cis   0.8847
+D    6   C   14          bp A U                  WW_cis   0.9258
+H    6   G   14          bp A U                  WW_cis   0.8921
+A    6   B    9          bp G C                  WW_cis   0.7212
+F    6   E   14          bp A U                  WW_cis   0.9199
+C    6   D    9          bp G C                  WW_cis   0.8874
+G    6   H    9          bp G C                  WW_cis   0.9128
+B    6   A   14          bp A U                  WW_cis   0.6968
+C    7   D    8          bp G C                  WW_cis   0.9403
+F    7   E   13          bp G C                  WW_cis   0.8949
+H    7   G   12          bp G A                  WW_cis   0.7727
+A    7   B    8          bp G C                  WW_cis   0.9017
+G    7   H    8          bp G C                  WW_cis   0.9043
+D    7   C   13          bp G C                  WW_cis   0.9126
+F    8   E   12          bp C A                  WW_cis   0.7608
+
