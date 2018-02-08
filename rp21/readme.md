@@ -8,11 +8,9 @@ Solution sequence vs target sequence:
     > 21_3dRNA_1_rpr A:1-41
     CCGGACGAGGUGCGCCGUACCCGGUCACGACAAGACGGCGC
 
-rna_calc_rmsd.py -t 21_solution_0_rpr.pdb *.pdb
-
 Processing:
 
-    rna_pdb_toolsx.py --rpr --inplace --dont_fix_missing_atoms --dont_rename_chains *
+    rna_pdb_toolsx.py --rpr --inplace --dont_rename_chains *
 
 INFs
 -------------------------------------------------------------------------------
