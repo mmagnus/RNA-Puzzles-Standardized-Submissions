@@ -19,7 +19,7 @@ GGAUCGCUGAACCCGAAAGGGGCGGGGGACCCAGAAAUGGGGCGAAUCUCUUCCGAAAGGAAGAGUAGGGUUACUCCUUC
 
 Manually:
 
-- The Das lab added AAAA as a lignad. It was removed for these rpr files.
+- The Das lab added AAAA as a ligand. It was removed for these rpr files.
 - Atoms of some residues had 'Alternate location indicator'. It was kept only `A`, e.g:
 
 		ATOM    474  N2 A  G A  20      -1.838 -51.308 -33.038  0.61 80.31           N ## this was kept
@@ -29,16 +29,16 @@ seq.txt:
 
 	for i in `ls *.pdb`; do rna_pdb_tools.py --get_seq $i; echo ''; done > seq.txt
 
-rmsds.csv
-
-	rna_calc_rmsd.py -t 4qln_solution_rpr.pdb --target_selection A:2-16+34+39-123 --model_selection A:2-16+34+39-123 rpr/*.pdb
-	
 rpr-ing:
 
 	for i in `ls *.pdb`; do rna_pdb_tools.py --get_rnapuzzle_ready $i > ${i/.pdb/_rpr.pdb}; done
 	for i in `ls *Chen*`; do rna_pdb_tools.py --edit 'X:1-125>A:1-125' $i > ${i}_temp; mv ${i}_temp ${i}; done
 	for i in `ls *Bujnicki*`; do rna_pdb_tools.py --edit 'R:1-125>A:1-125' $i > ${i}_temp; mv ${i}_temp ${i}; done
 
+rmsds.csv
+
+	rna_calc_rmsd.py -t 12_4qln_solution_rpr.pdb --target_selection A:2-16+34+39-123 --model_selection A:2-16+34+39-123 *.pdb
+    	
 Reference:
 
 Crystal structure kindly provided by Dinshaw Patel
