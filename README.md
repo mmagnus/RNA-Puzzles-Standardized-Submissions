@@ -44,5 +44,7 @@ The RNA Puzzles:
 - Puzzle 17: Pistol ribozyme
 - Puzzle 18: Zika virus
 - Puzzle 19: Twister sister
+- Puzzle 20: TBA
+- Puzzle 21: Guanidine III riboswitch
 
 Download a zip file https://github.com/mmagnus/RNA-Puzzles-submission/archive/master.zip 
