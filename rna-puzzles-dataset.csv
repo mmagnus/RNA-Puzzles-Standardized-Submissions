@@ -1,0 +1,20 @@
+﻿ID,RNA,Length,No of chains,Type,ID
+rp01,RNA dimer of a regulatory element from human thymidylate synthase mRNA,46,2,RNA motif,1
+rp02,Self-assembling RNA square,98,8,syntetic,2
+rp03,Glycine riboswitch,84,1,riboswitch,3
+rp04,SAM-I riboswitch aptamer,126,1,riboswitch,4
+rp05,Lariat capping ribozyme.,188,1,ribozyme,5
+rp06,Adenosylcobalamin riboswitch,168,1,riboswitch,6
+rp07,Varkud satellite ribozyme,185,1,ribozyme,7
+rp08,SAM riboswitch,96,1,riboswitch,8
+rp10,T-box riboswitch and tRNA,158,2,riboswitch,10
+rp12,YdaO riboswitch,123,1,riboswitch,12
+rp13,ZMP riboswitch,71,1,riboswitch,13
+rp14,L-glutamine riboswitch (Free),61,1,riboswitch,14
+rp14,L-glutamine riboswitch (Bound),61,1,riboswitch,14
+rp15,Hammerhead,68,2,ribozyme,15
+rp17,Pistol ribozyme,62,1,ribozyme,17
+rp18,Zika virus,71,1,RNA motif,18
+rp19,Twister sister,62,2,ribozyme,19
+rp20,Twister sister,68,2,ribozyme,20
+rp21,Guanidine III riboswitch,41,1,riboswitch,21
