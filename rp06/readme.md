@@ -42,7 +42,8 @@ Edits:
 Rmsd:
 
 ```
-rna_calc_rmsd.py -t 6_0_solution_4GXY_rpr.pdb --model_selection=A:1-17+24-110+115-168 *.pdb
+[mm] rp06$ git:(master) ✗ rna_calc_rmsd.py -t 6_0_solution_4GXY_rpr.pdb --model_selection=A:1-17+24-110+115-168 *.pdb
+method: all-atom-built-in
 method: all-atom-built-in
 # of models: 35
 6_0_solution_4GXY_rpr.pdb 0.0 3409
@@ -74,12 +75,12 @@ method: all-atom-built-in
 6_DAS_8_rpr.pdb 17.76 3409
 6_DAS_9_rpr.pdb 14.87 3409
 6_DAS_10_rpr.pdb 28.96 3409
-6_Dokholian_1_rpr.pdb 26.06 3409
-6_Dokholian_2_rpr.pdb 26.55 3409
-6_Dokholian_3_rpr.pdb 26.18 3409
-6_Dokholian_4_rpr.pdb 24.93 3409
-6_Dokholian_5_rpr.pdb 22.58 3409
-6_Dokholian_6_rpr.pdb 37.37 3409
+6_Dokholyan_1_rpr.pdb 26.06 3409
+6_Dokholyan_2_rpr.pdb 26.55 3409
+6_Dokholyan_3_rpr.pdb 26.18 3409
+6_Dokholyan_4_rpr.pdb 24.93 3409
+6_Dokholyan_5_rpr.pdb 22.58 3409
+6_Dokholyan_6_rpr.pdb 37.37 3409
 # of atoms used: 3409
 csv was created!  rmsds.csv
 ```
