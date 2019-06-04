@@ -54,59 +54,66 @@ Rename Bujinicki to Bujnicki.
 Rmsd:
 
 ```
-rna_calc_rmsd.py -t 13_0_solution_4XW7_rpr.pdb --target_selection A:1-45+57-71 --model_selection A:1-45+57-71 *.pdb
-rmsd_calc_rmsd_to_target
---------------------------------------------------------------------------------
- method:
-# of models: 48
-13_0_solution_4XW7_rpr.pdb 6.09128534424e-15 1295
-13_Adamiak_1_rpr.pdb 9.48732053205 1295
-13_Bujnicki_1_rpr.pdb 8.97197229536 1295
-13_Bujnicki_2_rpr.pdb 13.7585800327 1295
-13_Bujnicki_3_rpr.pdb 8.37705741142 1295
-13_Bujnicki_4_rpr.pdb 14.5635311794 1295
-13_Bujnicki_5_rpr.pdb 11.9601253433 1295
-13_Bujnicki_6_rpr.pdb 15.1914322323 1295
-13_Bujnicki_7_rpr.pdb 12.8066951241 1295
-13_Bujnicki_8_rpr.pdb 12.5015365588 1295
-13_Bujnicki_9_rpr.pdb 16.9921997235 1295
-13_Bujnicki_10_rpr.pdb 14.8386400566 1295
-13_Bujnicki_10_rpr_rpr.pdb 14.8386400566 1295
-13_Das_1_rpr.pdb 7.19311395504 1295
-13_Das_2_rpr.pdb 5.5533934485 1295
-13_Das_3_rpr.pdb 8.86986970398 1295
-13_Das_4_rpr.pdb 11.0111754677 1295
-13_Das_5_rpr.pdb 12.0920847353 1295
-13_Das_6_rpr.pdb 14.4052073871 1295
-13_Das_7_rpr.pdb 5.41031547184 1295
-13_Das_8_rpr.pdb 13.1562618649 1295
-13_Das_9_rpr.pdb 12.1288138506 1295
-13_Das_10_rpr.pdb 11.8942161705 1295
-13_Ding_1_rpr.pdb 16.1679227806 1295
-13_Ding_2_rpr.pdb 16.3817437836 1295
-13_Ding_3_rpr.pdb 13.5004235016 1295
-13_Ding_4_rpr.pdb 14.1143771084 1295
-13_Ding_5_rpr.pdb 14.9629292002 1295
-13_Ding_6_rpr.pdb 14.7499110272 1295
-13_Ding_7_rpr.pdb 16.2764788614 1295
-13_Ding_8_rpr.pdb 14.6228270458 1295
-13_Ding_9_rpr.pdb 17.2179449907 1295
-13_Ding_10_rpr.pdb 16.7699624575 1295
-13_Dokholyan_1_rpr.pdb 21.9235851609 1295
-13_Dokholyan_2_rpr.pdb 25.5323893651 1295
-13_Dokholyan_3_rpr.pdb 22.8686481681 1295
-13_Dokholyan_4_rpr.pdb 22.504323235 1295
-13_Dokholyan_5_rpr.pdb 18.6594109345 1295
-13_Xiao_1_rpr.pdb 16.7327350431 1295
-13_Xiao_2_rpr.pdb 24.4161683982 1295
-13_Xiao_3_rpr.pdb 17.2837860595 1295
-13_Xiao_4_rpr.pdb 28.0944907811 1295
-13_Xiao_5_rpr.pdb 28.5674943167 1295
-13_Xiao_6_rpr.pdb 28.0237256323 1295
-13_Xiao_7_rpr.pdb 27.6072743555 1295
-13_Xiao_8_rpr.pdb 28.8473471379 1295
-13_Xiao_9_rpr.pdb 31.0266380992 1295
-13_Xiao_10_rpr.pdb 28.1070168587 1295
+[mm] rp13$ git:(master) ✗ rna_calc_rmsd.py -t 13_0_solution_4XW7_rpr.pdb --target_selection A:1-45+57-71 --model_selection A:1-45+57-71 *.pdb
+
+method: all-atom-built-in
+# of models: 56
+13_0_solution_4XW7_rpr.pdb 0.0 1295
+13_Adamiak_1_rpr.pdb 9.49 1295
+13_Bujnicki_1_rpr.pdb 8.97 1295
+13_Bujnicki_2_rpr.pdb 13.76 1295
+13_Bujnicki_3_rpr.pdb 8.38 1295
+13_Bujnicki_4_rpr.pdb 14.56 1295
+13_Bujnicki_5_rpr.pdb 11.96 1295
+13_Bujnicki_6_rpr.pdb 15.19 1295
+13_Bujnicki_7_rpr.pdb 12.81 1295
+13_Bujnicki_8_rpr.pdb 12.5 1295
+13_Bujnicki_9_rpr.pdb 16.99 1295
+13_Bujnicki_10_rpr.pdb 14.84 1295
+13_Chen_1.pdb 14.76 1295
+13_Chen_2.pdb 9.43 1295
+13_Chen_3.pdb 9.62 1295
+13_Chen_4.pdb 15.06 1295
+13_Chen_5.pdb 6.55 1295
+13_Chen_6.pdb 16.15 1295
+13_Chen_7.pdb 14.97 1295
+13_Chen_8.pdb 14.43 1295
+13_Chen_9.pdb 15.23 1295
+13_Das_1_rpr.pdb 7.19 1295
+13_Das_2_rpr.pdb 5.55 1295
+13_Das_3_rpr.pdb 8.87 1295
+13_Das_4_rpr.pdb 11.01 1295
+13_Das_5_rpr.pdb 12.09 1295
+13_Das_6_rpr.pdb 14.41 1295
+13_Das_7_rpr.pdb 5.41 1295
+13_Das_8_rpr.pdb 13.16 1295
+13_Das_9_rpr.pdb 12.13 1295
+13_Das_10_rpr.pdb 11.89 1295
+13_Ding_1_rpr.pdb 16.17 1295
+13_Ding_2_rpr.pdb 16.38 1295
+13_Ding_3_rpr.pdb 13.5 1295
+13_Ding_4_rpr.pdb 14.11 1295
+13_Ding_5_rpr.pdb 14.96 1295
+13_Ding_6_rpr.pdb 14.75 1295
+13_Ding_7_rpr.pdb 16.28 1295
+13_Ding_8_rpr.pdb 14.62 1295
+13_Ding_9_rpr.pdb 17.22 1295
+13_Ding_10_rpr.pdb 16.77 1295
+13_Dokholyan_1_rpr.pdb 21.92 1295
+13_Dokholyan_2_rpr.pdb 25.53 1295
+13_Dokholyan_3_rpr.pdb 22.87 1295
+13_Dokholyan_4_rpr.pdb 22.5 1295
+13_Dokholyan_5_rpr.pdb 18.66 1295
+13_Xiao_1_rpr.pdb 16.73 1295
+13_Xiao_2_rpr.pdb 24.42 1295
+13_Xiao_3_rpr.pdb 17.28 1295
+13_Xiao_4_rpr.pdb 28.09 1295
+13_Xiao_5_rpr.pdb 28.57 1295
+13_Xiao_6_rpr.pdb 28.02 1295
+13_Xiao_7_rpr.pdb 27.61 1295
+13_Xiao_8_rpr.pdb 28.85 1295
+13_Xiao_9_rpr.pdb 31.03 1295
+13_Xiao_10_rpr.pdb 28.11 1295
 # of atoms used: 1295
 csv was created!  rmsds.csv
 ```
