@@ -1,10 +1,10 @@
-# RNA-Puzzles-Normalized-submissions
+# RNA-Puzzles-Standardized-Submissions
 
 Look for other our projects at https://github.com/RNA-Puzzles
 
 [![Twitter Follow](http://img.shields.io/twitter/follow/rna_tools.svg?style=social&label=Follow)](https://twitter.com/rna_pdb_tools) [![tag](https://img.shields.io/github/release/mmagnus/RNA-Puzzles-Normalized-submissions.svg)](https://github.com/mmagnus/RNA-Puzzles-Normalized-submissions/releases) [![DOI](https://zenodo.org/badge/doi/10.5281/zenodo.60933.svg)](http://dx.doi.org/10.5281/zenodo.60933)  
 
-Curated structures submitted to the RNA-Puzzles experiment, processed semi-manually @mmagnus and with https://github.com/mmagnus/rna-tools .
+Curated structures submitted to the RNA-Puzzles experiment, processed semi-manually by @mmagnus and with https://github.com/mmagnus/rna-tools .
 
 Reference of the RNA Puzzles experiment:
 
@@ -47,4 +47,4 @@ The RNA Puzzles:
 - Puzzle 20: TBA
 - Puzzle 21: Guanidine III riboswitch
 
-Download a zip file https://github.com/mmagnus/RNA-Puzzles-submission/archive/master.zip 
+Download a zip file https://github.com/mmagnus/RNA-Puzzles-Standardized-Submissions/archive/master.zip 
