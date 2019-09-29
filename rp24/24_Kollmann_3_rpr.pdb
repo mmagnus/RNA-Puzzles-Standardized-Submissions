@@ -1,3 +1,7 @@
+REMARK 250 Model edited with rna-tools
+REMARK 250  ver b'7bc775b58-162-gc716fc0-dirty\n' 
+REMARK 250  https://github.com/mmagnus/rna-tools 
+REMARK 250  Sun Sep 29 17:56:30 2019
 ATOM      1  P     G A   1       8.924  -5.738  68.666  1.00  0.00           P  
 ATOM      2  OP1   G A   1       9.385  -4.328  68.700  1.00  0.00           O  
 ATOM      3  OP2   G A   1       7.557  -6.028  68.163  1.00  0.00           O  
@@ -2389,5 +2393,4 @@ ATOM   2388  C4    C A 112       6.757 -16.574  63.188  1.00  0.00           C
 ATOM   2389  N4    C A 112       5.945 -15.867  63.977  1.00  0.00           N  
 ATOM   2390  C5    C A 112       6.336 -17.821  62.658  1.00  0.00           C  
 ATOM   2391  C6    C A 112       7.187 -18.490  61.873  1.00  0.00           C  
-TER    2392        C A 112                                                       
-END
+TER    2392        C A 112
