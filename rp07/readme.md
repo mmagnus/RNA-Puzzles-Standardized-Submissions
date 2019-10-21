@@ -15,7 +15,7 @@ GCGCUGUGUCGCAAUCUGCGAAGGGCGUCGUCGGCCCAAGCGGUAGUAAGCAGGGAACUCACCUCCAAUGAAACACAUUG
 
 Manual manipulations:
 
-- Ding.. long list of atoms at the beggning
+- Ding.. long list of atoms at the beginning
 
 Problem with `7_Das_7_rpr.pdb`
 
