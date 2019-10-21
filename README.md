@@ -34,7 +34,7 @@ The RNA Puzzles:
 - Puzzle  8: SAM riboswitch
 - Puzzle  9: 5-hydroxytryptophan aptamer
 - Puzzle 10: T-box riboswitch and tRNA
-- Puzzle 11: TBA
+- Puzzle 11: 5′-terminal hairpin of the 7SK snRNA
 - Puzzle 12: YdaO riboswitch
 - Puzzle 13: ZMP riboswitch
 - Puzzle 14: L-glutamine riboswitch (Free)
@@ -44,7 +44,7 @@ The RNA Puzzles:
 - Puzzle 17: Pistol ribozyme
 - Puzzle 18: Zika virus
 - Puzzle 19: Twister sister
-- Puzzle 20: TBA
+- Puzzle 20: Twister Sister ribozyme
 - Puzzle 21: Guanidine III riboswitch
-
+- Puzzle 24: Adenovirus virus-associated RNA
 Download a zip file https://github.com/mmagnus/RNA-Puzzles-Standardized-Submissions/archive/master.zip
