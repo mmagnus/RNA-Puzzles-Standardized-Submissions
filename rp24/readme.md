@@ -1,4 +1,4 @@
-RNA-Puzzle 24
+RNA-Puzzle 24 Adenovirus virus-associated RNA
 -----------------------------------------------------------------------------
 
 Sequences:
