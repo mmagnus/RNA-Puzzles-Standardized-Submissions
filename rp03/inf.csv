@@ -1,0 +1,14 @@
+target,fn,inf_all,inf_stack,inf_WC,inf_nWC,sns_WC,ppv_WC,sns_nWC,ppv_nWC
+3_solution_0_rpr.pdb.outCR,3_das_2_rpr.pdb.outCR,0.776,0.000,0.935,0.462,0.875,1.000,0.556,0.385
+3_solution_0_rpr.pdb.outCR,3_chen_1_rpr.pdb.outCR,0.804,0.000,0.957,0.298,0.917,1.000,0.222,0.400
+3_solution_0_rpr.pdb.outCR,3_bujnicki_1_rpr.pdb.outCR,0.716,0.000,0.894,0.302,0.875,0.913,0.333,0.273
+3_solution_0_rpr.pdb.outCR,3_das_3_rpr.pdb.outCR,0.776,0.000,0.957,0.385,0.917,1.000,0.444,0.333
+3_solution_0_rpr.pdb.outCR,3_das_1_rpr.pdb.outCR,0.773,0.000,0.957,0.430,0.917,1.000,0.556,0.333
+3_solution_0_rpr.pdb.outCR,3_bujnicki_2_rpr.pdb.outCR,0.725,0.000,0.957,0.267,0.917,1.000,0.333,0.214
+3_solution_0_rpr.pdb.outCR,3_das_4_rpr.pdb.outCR,0.746,0.000,0.935,0.370,0.875,1.000,0.444,0.308
+3_solution_0_rpr.pdb.outCR,3_dokholyan_1_rpr.pdb.outCR,0.782,0.000,0.935,0.192,0.875,1.000,0.111,0.333
+3_solution_0_rpr.pdb.outCR,3_major_1_rpr.pdb.outCR,0.341,0.000,0.401,0.149,0.375,0.429,0.111,0.200
+3_solution_0_rpr.pdb.outCR,3_das_5_rpr.pdb.outCR,0.783,0.000,0.957,0.445,0.917,1.000,0.556,0.357
+3_solution_0_rpr.pdb.outCR,3_solution_0_rpr.pdb.outCR,1.000,0.000,1.000,1.000,1.000,1.000,1.000,1.000
+3_solution_0_rpr.pdb.outCR,3_dokholyan_2_rpr.pdb.outCR,0.717,0.000,0.935,0.000,0.875,1.000,0.000,0.000
+3_solution_0_rpr.pdb.outCR,3_major_2_rpr.pdb.outCR,0.688,0.000,0.870,0.222,0.833,0.909,0.222,0.222
