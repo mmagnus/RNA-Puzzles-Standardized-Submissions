@@ -114,3 +114,8 @@ In the archive folder, there are more solution structures with one mismatch comp
     # 21_solution_2
     > A:1-41
     CCGGACGAGGUGCGCCGUACCCGGUCACGACAAGACGGCGC
+    
+Solutions
+-------------------------------------------------------------------------------
+
+![](solutions/rp21-solutions.png)
