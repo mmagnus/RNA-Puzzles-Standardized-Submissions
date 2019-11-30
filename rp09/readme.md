@@ -98,7 +98,26 @@ INFs:
     9_0_solution_5kpy_rpr.pdb.outCR  9_Ding_8_rpr.pdb.outCR           0.408    0.000      0.858   0.333    0.900   0.818   0.167    0.667
     9_0_solution_5kpy_rpr.pdb.outCR  9_Dokholyan_2_rpr.pdb.outCR      0.365    0.000      0.800   0.000    0.800   0.800   0.000    0.000
 
+Ligand
+-------------------------------------------------------------------------------
+
+![](with_ligand/only-ligand/ligands.png)
+
+See `with_ligand/only-ligand` for the files:
+
+    rna_calc_rmsd.py -t 9_solution_5kpy_ligand_BujnickiAtomOrder.pdb 9_Buj*
+    method: all-atom-built-in
+    # of models: 5
+    9_Bujnicki_1_rpr.pdb 2.74 16
+    9_Bujnicki_2_rpr.pdb 3.2 16
+    9_Bujnicki_3_rpr.pdb 2.76 16
+    9_Bujnicki_4_rpr.pdb 2.79 16
+    9_Bujnicki_5_rpr.pdb 2.68 16
+    # of atoms used: 16
+    csv was created!  rmsds.csv
+
 Sequences:
+-------------------------------------------------------------------------------
 
     rna_pdb_toolsx.py --get-seq *.pdb
     # 9_0_solution_5kpy_rpr
@@ -206,3 +225,4 @@ Sequences:
     # 9_Dokholyan_4_rpr
     > A:1-71
     GGACACUGAUGAUCGCGUGGAUAUGGCACGCAUUGAAUUGUUGGACACCGUAAAUGUCCUAACACGUGUC
+
