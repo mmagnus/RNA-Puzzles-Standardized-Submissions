@@ -102,6 +102,7 @@ Ligand
 -------------------------------------------------------------------------------
 
 ![](with_ligand/only-ligand/ligands.png)
+Fig. The reference ligand position is in green, the other ligand positions were modeled manually, based on the small molecule ligand structure pose in the template structure. The modeled ligand RMSD ranged from 2.68 Å to 3.2 Å.     
 
 See `with_ligand/only-ligand` for the files:
 
@@ -115,6 +116,8 @@ See `with_ligand/only-ligand` for the files:
     9_Bujnicki_5_rpr.pdb 2.68 16
     # of atoms used: 16
     csv was created!  rmsds.csv
+    
+
 
 Sequences:
 -------------------------------------------------------------------------------
