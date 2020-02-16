@@ -1,0 +1,28 @@
+Classifier: Clarna
+chains:  A 1 41
+A    1   A   24          bp C G                  WW_cis   0.8893
+A    1   A    2          bp C C                      >>   0.8670
+A    2   A   23          bp C G                  WW_cis   0.8986
+A    2   A    3          bp C G                      >>   0.9189
+A    3   A    4          bp G G                      >>   0.9570
+A    3   A   23          bp G G                      <>   0.9250
+A    3   A   22          bp G C                  WW_cis   0.8855
+A    4   A    5          bp G A                      >>   0.9757
+A    4   A   21          bp G C                  WW_cis   0.8944
+A   15   A   16          bp C C                      >>   0.8976
+A   16   A   17          bp C G                      >>   0.9272
+A   17   A   18          bp G U                      >>   0.6646
+A   18   A   19          bp U A                      >>   0.8316
+A   20   A   21          bp C C                      >>   0.8714
+A   21   A   22          bp C C                      >>   0.8999
+A   22   A   23          bp C G                      >>   0.8613
+A   23   A   24          bp G G                      >>   0.9650
+A   27   A   28          bp A C                      >>   0.7570
+A   30   A   34          bp A G                      ><   0.6425
+A   30   A   35          bp A A                 WH_tran   0.7312
+A   32   A   33          bp A A                      <<   0.9755
+A   34   A   35          bp G A                      >>   0.7487
+A   38   A   39          bp G C                      >>   0.8208
+A   39   A   40          bp C G                      >>   0.7444
+A   40   A   41          bp G C                      >>   0.9566
+

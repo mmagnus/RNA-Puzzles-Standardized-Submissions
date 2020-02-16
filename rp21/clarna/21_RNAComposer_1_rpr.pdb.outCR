@@ -1,0 +1,46 @@
+Classifier: Clarna
+chains:  A 1 41
+A    1   A   24          bp C G                  WW_cis   0.8671
+A    2   A   23          bp C G                  WW_cis   0.9259
+A    3   A    4          bp G G                      >>   0.9864
+A    3   A   23          bp G G                      <>   0.9593
+A    3   A   22          bp G C                  WW_cis   0.8806
+A    4   A    5          bp G A                      >>   0.9805
+A    4   A   21          bp G C                  WW_cis   0.8836
+A    5   A    6          bp A C                      >>   0.9621
+A    6   A   20          bp C C                  WW_cis   0.6078
+A    7   A   18          bp G U                      <>   0.9530
+A    7   A    8          bp G A                      >>   0.9490
+A    8   A    9          bp A G                      >>   0.9804
+A    8   A   17          bp A G                 HS_tran   0.8443
+A    9   A   16          bp G C                  WW_cis   0.9013
+A    9   A   10          bp G G                      >>   0.9657
+A   10   A   15          bp G C                  WW_cis   0.8985
+A   10   A   11          bp G U                      >>   0.9839
+A   10   A   16          bp G C                      <>   0.9237
+A   11   A   14          bp U G                 SW_tran   0.6621
+A   14   A   15          bp G C                      <>   0.9515
+A   15   A   16          bp C C                      >>   0.9025
+A   16   A   17          bp C G                      >>   0.9699
+A   18   A   20          bp U C                      >>   0.9393
+A   20   A   21          bp C C                      >>   0.8334
+A   22   A   23          bp C G                      >>   0.6426
+A   23   A   24          bp G G                      >>   0.9852
+A   23   A   27          bp G A                  SS_cis   0.8364
+A   24   A   25          bp G U                  SH_cis   0.7361
+A   25   A   27          bp U A                      <>   0.9120
+A   28   A   40          bp C G                  WW_cis   0.8951
+A   28   A   29          bp C G                      >>   0.7612
+A   29   A   30          bp G A                      >>   0.9674
+A   29   A   39          bp G C                  WW_cis   0.9172
+A   29   A   40          bp G G                      <>   0.9561
+A   30   A   31          bp A C                      >>   0.8981
+A   30   A   38          bp A G                  WW_cis   0.8918
+A   31   A   36          bp C C                 WH_tran   0.6259
+A   33   A   34          bp A G                      >>   0.9893
+A   34   A   35          bp G A                      >>   0.9575
+A   36   A   38          bp C G                      >>   0.9143
+A   38   A   39          bp G C                      >>   0.9832
+A   39   A   40          bp C G                      >>   0.6207
+A   40   A   41          bp G C                      >>   0.9844
+

@@ -12,84 +12,135 @@ Processing:
 
     rna_pdb_toolsx.py --rpr --inplace --dont_rename_chains *
 
+RMSD
+-------------------------------------------------------------------------------
+
+    rna_calc_rmsd.py -t 21_solution_2_rpr.pdb *.pdb -pr -sr
+    # method: all-atom-built-in
+    # of models: 55
+    # of atoms used: 881
+                              fn  rmsd_all
+    54     21_solution_2_rpr.pdb      0.00
+    16   21_ChenLowLig_2_rpr.pdb      3.83
+    11  21_ChenHighLig_2_rpr.pdb      3.83
+    10  21_ChenHighLig_1_rpr.pdb      4.14
+    15   21_ChenLowLig_1_rpr.pdb      4.14
+    20     21_DasLORES_1_rpr.pdb      4.34
+    21     21_DasLORES_2_rpr.pdb      4.55
+    8       21_Adamiak_4_rpr.pdb      4.74
+    7       21_Adamiak_3_rpr.pdb      4.75
+    5       21_Adamiak_1_rpr.pdb      4.80
+    6       21_Adamiak_2_rpr.pdb      4.81
+    18   21_ChenLowLig_4_rpr.pdb      4.82
+    13  21_ChenHighLig_4_rpr.pdb      4.82
+    17   21_ChenLowLig_3_rpr.pdb      5.10
+    12  21_ChenHighLig_3_rpr.pdb      5.10
+    27          21_Das_3_rpr.pdb      5.19
+    26          21_Das_2_rpr.pdb      5.62
+    9       21_Adamiak_5_rpr.pdb      5.69
+    25          21_Das_1_rpr.pdb      5.76
+    28          21_Das_4_rpr.pdb      5.77
+    29          21_Das_5_rpr.pdb      6.37
+    23     21_DasLORES_4_rpr.pdb      6.59
+    19   21_ChenLowLig_5_rpr.pdb      7.24
+    14  21_ChenHighLig_5_rpr.pdb      7.24
+    24     21_DasLORES_5_rpr.pdb      9.17
+    52       21_simRNA_4_rpr.pdb     10.85
+    50       21_simRNA_2_rpr.pdb     11.72
+    49       21_simRNA_1_rpr.pdb     12.05
+    0         21_3dRNA_1_rpr.pdb     12.09
+    32  21_RNAComposer_3_rpr.pdb     12.23
+    2         21_3dRNA_3_rpr.pdb     12.28
+    1         21_3dRNA_2_rpr.pdb     12.41
+    33  21_RNAComposer_4_rpr.pdb     13.02
+    51       21_simRNA_3_rpr.pdb     13.29
+    53       21_simRNA_5_rpr.pdb     13.29
+    48  21_Sanbonmatsu_4_rpr.pdb     14.17
+    47  21_Sanbonmatsu_3_rpr.pdb     14.17
+    22     21_DasLORES_3_rpr.pdb     14.54
+    46  21_Sanbonmatsu_2_rpr.pdb     14.60
+    45  21_Sanbonmatsu_1_rpr.pdb     14.60
+    30  21_RNAComposer_1_rpr.pdb     14.63
+    36         21_RW3D_2_rpr.pdb     16.05
+    44        21_RW3D_10_rpr.pdb     16.23
+    40         21_RW3D_6_rpr.pdb     16.98
+    34  21_RNAComposer_5_rpr.pdb     17.04
+    4         21_3dRNA_5_rpr.pdb     17.49
+    42         21_RW3D_8_rpr.pdb     17.66
+    37         21_RW3D_3_rpr.pdb     17.81
+    35         21_RW3D_1_rpr.pdb     17.92
+    43         21_RW3D_9_rpr.pdb     18.03
+    41         21_RW3D_7_rpr.pdb     18.05
+    3         21_3dRNA_4_rpr.pdb     18.09
+    39         21_RW3D_5_rpr.pdb     18.11
+    38         21_RW3D_4_rpr.pdb     18.21
+    31  21_RNAComposer_2_rpr.pdb     18.21
+    csv was created!  rmsds.csv
+
 INFs
 -------------------------------------------------------------------------------
 
 ```
-[mm] rp21$ git:(master) ✗ column -s, -t < inf.csv
-column: line too long
-target                       fn                              inf_all  inf_stack  inf_WC  inf_nWC  sns_WC  ppv_WC  sns_nWC  ppv_nWC
-21_solution_2_rpr.pdb.outCR  21_solution_2_rpr.pdb.outCR     1        0          1       1        1       1       1        1
-21_solution_2_rpr.pdb.outCR  21_Adamiak_3_rpr.pdb.outCR      0.764    0          0.909   0.5      0.909   0.909   0.25     1
-21_solution_2_rpr.pdb.outCR  21_Adamiak_4_rpr.pdb.outCR      0.764    0          0.909   0.5      0.909   0.909   0.25     1
-21_solution_2_rpr.pdb.outCR  21_Adamiak_1_rpr.pdb.outCR      0.728    0          0.909   0.354    0.909   0.909   0.125    1
-21_solution_2_rpr.pdb.outCR  21_RNAComposer_3_rpr.pdb.outCR  0.725    0          0.953   0        0.909   1       0        0
-21_solution_2_rpr.pdb.outCR  21_RNAComposer_4_rpr.pdb.outCR  0.725    0          0.953   0        0.909   1       0        0
-21_solution_2_rpr.pdb.outCR  21_Adamiak_2_rpr.pdb.outCR      0.7      0          0.87    0.354    0.909   0.833   0.125    1
-21_solution_2_rpr.pdb.outCR  21_Adamiak_5_rpr.pdb.outCR      0.692    0          0.909   0        0.909   0.909   0        0
-21_solution_2_rpr.pdb.outCR  21_3dRNA_4_rpr.pdb.outCR        0.459    0          0.64    0        0.545   0.75    0        0
-21_solution_2_rpr.pdb.outCR  21_3dRNA_1_rpr.pdb.outCR        0.41     0          0.603   0        0.364   1       0        0
-21_solution_2_rpr.pdb.outCR  21_3dRNA_2_rpr.pdb.outCR        0.41     0          0.603   0        0.364   1       0        0
-21_solution_2_rpr.pdb.outCR  21_3dRNA_3_rpr.pdb.outCR        0.41     0          0.603   0        0.364   1       0        0
-21_solution_2_rpr.pdb.outCR  21_RW3D_6_rpr.pdb.outCR         0.401    0          0.545   0.158    0.545   0.545   0.125    0.2
-21_solution_2_rpr.pdb.outCR  21_RNAComposer_2_rpr.pdb.outCR  0.397    0          0.572   0        0.545   0.6     0        0
-21_solution_2_rpr.pdb.outCR  21_RW3D_9_rpr.pdb.outCR         0.389    0          0.545   0.144    0.545   0.545   0.125    0.167
-21_solution_2_rpr.pdb.outCR  21_3dRNA_5_rpr.pdb.outCR        0.382    0          0.545   0        0.545   0.545   0        0
-21_solution_2_rpr.pdb.outCR  21_RNAComposer_5_rpr.pdb.outCR  0.382    0          0.545   0        0.545   0.545   0        0
-21_solution_2_rpr.pdb.outCR  21_RW3D_3_rpr.pdb.outCR         0.379    0          0.545   0.134    0.545   0.545   0.125    0.143
-21_solution_2_rpr.pdb.outCR  21_simRNA_1_rpr.pdb.outCR       0.344    0          0.467   0        0.545   0.4     0        0
-21_solution_2_rpr.pdb.outCR  21_RW3D_5_rpr.pdb.outCR         0.334    0          0.522   0        0.545   0.5     0        0
-21_solution_2_rpr.pdb.outCR  21_RW3D_8_rpr.pdb.outCR         0.334    0          0.522   0        0.545   0.5     0        0
-21_solution_2_rpr.pdb.outCR  21_simRNA_4_rpr.pdb.outCR       0.334    0          0.467   0        0.545   0.4     0        0
-21_solution_2_rpr.pdb.outCR  21_RW3D_10_rpr.pdb.outCR        0.324    0          0.522   0        0.545   0.5     0        0
-21_solution_2_rpr.pdb.outCR  21_RW3D_1_rpr.pdb.outCR         0.324    0          0.522   0        0.545   0.5     0        0
-21_solution_2_rpr.pdb.outCR  21_RW3D_2_rpr.pdb.outCR         0.316    0          0.522   0        0.545   0.5     0        0
-21_solution_2_rpr.pdb.outCR  21_RW3D_4_rpr.pdb.outCR         0.316    0          0.522   0        0.545   0.5     0        0
-21_solution_2_rpr.pdb.outCR  21_RW3D_7_rpr.pdb.outCR         0.316    0          0.522   0        0.545   0.5     0        0
-21_solution_2_rpr.pdb.outCR  21_simRNA_2_rpr.pdb.outCR       0.308    0          0.452   0        0.545   0.375   0        0
-21_solution_2_rpr.pdb.outCR  21_RNAComposer_1_rpr.pdb.outCR  0.296    0          0.426   0.134    0.364   0.5     0.125    0.143
-21_solution_2_rpr.pdb.outCR  21_simRNA_3_rpr.pdb.outCR       0.278    0          0.403   0        0.455   0.357   0        0
+rna_calc_inf.py -t 21_solution_2_rpr.pdb *.pdb -sr -pr
+ 98% (54 of 55) |##################################################################################################################   | Elapsed Time: 0:00:02 ETA:   0:00:00csv was created!  inf.csv
+                   target                        fn  inf_all  inf_stack  inf_WC  inf_nWC  sns_WC  ppv_WC  sns_nWC  ppv_nWC
+54  21_solution_2_rpr.pdb     21_solution_2_rpr.pdb     1.00       1.00    1.00     1.00    1.00    1.00     1.00     1.00
+16  21_solution_2_rpr.pdb     21_DasLORES_1_rpr.pdb     0.76       0.80    0.91     0.32    0.91    0.91     0.25     0.40
+29  21_solution_2_rpr.pdb          21_Das_5_rpr.pdb     0.75       0.74    0.91     0.59    0.91    0.91     0.62     0.56
+19  21_solution_2_rpr.pdb     21_DasLORES_2_rpr.pdb     0.73       0.74    0.91     0.35    0.91    0.91     0.25     0.50
+4   21_solution_2_rpr.pdb  21_ChenHighLig_2_rpr.pdb     0.72       0.75    0.91     0.18    0.91    0.91     0.12     0.25
+18  21_solution_2_rpr.pdb   21_ChenLowLig_2_rpr.pdb     0.72       0.75    0.91     0.18    0.91    0.91     0.12     0.25
+14  21_solution_2_rpr.pdb  21_ChenHighLig_5_rpr.pdb     0.69       0.70    0.91     0.00    0.91    0.91     0.00     0.00
+26  21_solution_2_rpr.pdb   21_ChenLowLig_5_rpr.pdb     0.69       0.70    0.91     0.00    0.91    0.91     0.00     0.00
+15  21_solution_2_rpr.pdb   21_ChenLowLig_1_rpr.pdb     0.69       0.72    0.91     0.00    0.91    0.91     0.00     0.00
+0   21_solution_2_rpr.pdb  21_ChenHighLig_1_rpr.pdb     0.69       0.72    0.91     0.00    0.91    0.91     0.00     0.00
+24  21_solution_2_rpr.pdb   21_ChenLowLig_4_rpr.pdb     0.67       0.68    0.86     0.32    0.82    0.90     0.25     0.40
+9   21_solution_2_rpr.pdb  21_ChenHighLig_4_rpr.pdb     0.67       0.68    0.86     0.32    0.82    0.90     0.25     0.40
+20  21_solution_2_rpr.pdb          21_Das_2_rpr.pdb     0.65       0.70    0.91     0.11    0.91    0.91     0.12     0.09
+10  21_solution_2_rpr.pdb      21_Adamiak_4_rpr.pdb     0.64       0.57    0.91     0.61    0.91    0.91     0.38     1.00
+25  21_solution_2_rpr.pdb          21_Das_4_rpr.pdb     0.64       0.68    0.87     0.13    0.91    0.83     0.12     0.14
+27  21_solution_2_rpr.pdb     21_DasLORES_4_rpr.pdb     0.63       0.65    0.87     0.00    0.91    0.83     0.00     0.00
+6   21_solution_2_rpr.pdb  21_ChenHighLig_3_rpr.pdb     0.62       0.64    0.91     0.00    0.91    0.91     0.00     0.00
+21  21_solution_2_rpr.pdb   21_ChenLowLig_3_rpr.pdb     0.62       0.64    0.91     0.00    0.91    0.91     0.00     0.00
+39  21_solution_2_rpr.pdb  21_RNAComposer_4_rpr.pdb     0.62       0.57    0.95     0.00    0.91    1.00     0.00     0.00
+36  21_solution_2_rpr.pdb  21_RNAComposer_3_rpr.pdb     0.61       0.56    0.95     0.00    0.91    1.00     0.00     0.00
+17  21_solution_2_rpr.pdb          21_Das_1_rpr.pdb     0.61       0.65    0.91     0.11    0.91    0.91     0.12     0.10
+45  21_solution_2_rpr.pdb         21_RW3D_9_rpr.pdb     0.60       0.70    0.55     0.14    0.55    0.55     0.12     0.17
+28  21_solution_2_rpr.pdb     21_DasLORES_5_rpr.pdb     0.60       0.60    0.87     0.00    0.91    0.83     0.00     0.00
+7   21_solution_2_rpr.pdb      21_Adamiak_3_rpr.pdb     0.59       0.48    0.91     0.61    0.91    0.91     0.38     1.00
+23  21_solution_2_rpr.pdb     21_DasLORES_3_rpr.pdb     0.59       0.59    0.84     0.00    0.91    0.77     0.00     0.00
+34  21_solution_2_rpr.pdb         21_RW3D_6_rpr.pdb     0.59       0.68    0.55     0.16    0.55    0.55     0.12     0.20
+40  21_solution_2_rpr.pdb         21_RW3D_3_rpr.pdb     0.58       0.68    0.55     0.13    0.55    0.55     0.12     0.14
+13  21_solution_2_rpr.pdb      21_Adamiak_5_rpr.pdb     0.58       0.50    0.91     0.35    0.91    0.91     0.12     1.00
+11  21_solution_2_rpr.pdb        21_3dRNA_4_rpr.pdb     0.58       0.63    0.64     0.00    0.55    0.75     0.00     0.00
+1   21_solution_2_rpr.pdb      21_Adamiak_1_rpr.pdb     0.57       0.50    0.91     0.35    0.91    0.91     0.12     1.00
+51  21_solution_2_rpr.pdb       21_simRNA_4_rpr.pdb     0.57       0.68    0.47     0.00    0.55    0.40     0.00     0.00
+33  21_solution_2_rpr.pdb        21_RW3D_10_rpr.pdb     0.56       0.68    0.52     0.00    0.55    0.50     0.00     0.00
+12  21_solution_2_rpr.pdb        21_3dRNA_5_rpr.pdb     0.56       0.64    0.55     0.00    0.55    0.55     0.00     0.00
+22  21_solution_2_rpr.pdb          21_Das_3_rpr.pdb     0.56       0.53    0.91     0.24    0.91    0.91     0.25     0.22
+44  21_solution_2_rpr.pdb         21_RW3D_4_rpr.pdb     0.55       0.66    0.52     0.00    0.55    0.50     0.00     0.00
+42  21_solution_2_rpr.pdb         21_RW3D_8_rpr.pdb     0.55       0.65    0.52     0.00    0.55    0.50     0.00     0.00
+3   21_solution_2_rpr.pdb      21_Adamiak_2_rpr.pdb     0.55       0.45    0.87     0.50    0.91    0.83     0.25     1.00
+47  21_solution_2_rpr.pdb       21_simRNA_2_rpr.pdb     0.54       0.66    0.45     0.00    0.55    0.38     0.00     0.00
+38  21_solution_2_rpr.pdb         21_RW3D_2_rpr.pdb     0.54       0.66    0.52     0.00    0.55    0.50     0.00     0.00
+35  21_solution_2_rpr.pdb         21_RW3D_1_rpr.pdb     0.52       0.61    0.52     0.00    0.55    0.50     0.00     0.00
+37  21_solution_2_rpr.pdb         21_RW3D_7_rpr.pdb     0.52       0.63    0.52     0.00    0.55    0.50     0.00     0.00
+32  21_solution_2_rpr.pdb  21_RNAComposer_2_rpr.pdb     0.52       0.57    0.57     0.00    0.55    0.60     0.00     0.00
+31  21_solution_2_rpr.pdb         21_RW3D_5_rpr.pdb     0.50       0.58    0.52     0.00    0.55    0.50     0.00     0.00
+49  21_solution_2_rpr.pdb       21_simRNA_3_rpr.pdb     0.50       0.61    0.40     0.00    0.46    0.36     0.00     0.00
+52  21_solution_2_rpr.pdb       21_simRNA_5_rpr.pdb     0.50       0.61    0.40     0.00    0.46    0.36     0.00     0.00
+53  21_solution_2_rpr.pdb       21_simRNA_1_rpr.pdb     0.50       0.58    0.47     0.00    0.55    0.40     0.00     0.00
+41  21_solution_2_rpr.pdb  21_RNAComposer_5_rpr.pdb     0.49       0.55    0.55     0.00    0.55    0.55     0.00     0.00
+43  21_solution_2_rpr.pdb  21_Sanbonmatsu_1_rpr.pdb     0.48       0.50    0.57     0.00    0.55    0.60     0.00     0.00
+46  21_solution_2_rpr.pdb  21_Sanbonmatsu_2_rpr.pdb     0.48       0.50    0.57     0.00    0.55    0.60     0.00     0.00
+48  21_solution_2_rpr.pdb  21_Sanbonmatsu_3_rpr.pdb     0.48       0.52    0.52     0.00    0.55    0.50     0.00     0.00
+50  21_solution_2_rpr.pdb  21_Sanbonmatsu_4_rpr.pdb     0.48       0.52    0.52     0.00    0.55    0.50     0.00     0.00
+8   21_solution_2_rpr.pdb        21_3dRNA_3_rpr.pdb     0.46       0.48    0.60     0.00    0.36    1.00     0.00     0.00
+30  21_solution_2_rpr.pdb  21_RNAComposer_1_rpr.pdb     0.45       0.54    0.43     0.13    0.36    0.50     0.12     0.14
+5   21_solution_2_rpr.pdb        21_3dRNA_2_rpr.pdb     0.43       0.45    0.60     0.00    0.36    1.00     0.00     0.00
+2   21_solution_2_rpr.pdb        21_3dRNA_1_rpr.pdb     0.40       0.41    0.60     0.00    0.36    1.00     0.00     0.00
 ```
 
-RMSD
--------------------------------------------------------------------------------
-
-    [mm] rp21$ git:(master) ✗ rna_calc_rmsd.py -t 21_solution_2_rpr.pdb *.pdb
-    method: all-atom-built-in
-    # of models: 31
-    21_3dRNA_1_rpr.pdb 12.09 881
-    21_3dRNA_2_rpr.pdb 12.41 881
-    21_3dRNA_3_rpr.pdb 12.28 881
-    21_3dRNA_4_rpr.pdb 18.09 881
-    21_3dRNA_5_rpr.pdb 17.49 881
-    21_Adamiak_1_rpr.pdb 4.8 881
-    21_Adamiak_2_rpr.pdb 4.81 881
-    21_Adamiak_3_rpr.pdb 4.75 881
-    21_Adamiak_4_rpr.pdb 4.74 881
-    21_Adamiak_5_rpr.pdb 5.69 881
-    21_RNAComposer_1_rpr.pdb 14.63 881
-    21_RNAComposer_2_rpr.pdb 18.21 881
-    21_RNAComposer_3_rpr.pdb 12.23 881
-    21_RNAComposer_4_rpr.pdb 13.02 881
-    21_RNAComposer_5_rpr.pdb 17.04 881
-    21_RW3D_1_rpr.pdb 17.92 881
-    21_RW3D_2_rpr.pdb 16.05 881
-    21_RW3D_3_rpr.pdb 17.81 881
-    21_RW3D_4_rpr.pdb 18.21 881
-    21_RW3D_5_rpr.pdb 18.11 881
-    21_RW3D_6_rpr.pdb 16.98 881
-    21_RW3D_7_rpr.pdb 18.05 881
-    21_RW3D_8_rpr.pdb 17.66 881
-    21_RW3D_9_rpr.pdb 18.03 881
-    21_RW3D_10_rpr.pdb 16.23 881
-    21_simRNA_1_rpr.pdb 12.05 881
-    21_simRNA_2_rpr.pdb 11.72 881
-    21_simRNA_3_rpr.pdb 13.29 881
-    21_simRNA_4_rpr.pdb 10.85 881
-    21_simRNA_5_rpr.pdb 13.29 881
-    21_solution_2_rpr.pdb 0.0 881
-    # of atoms used: 881
-    csv was created!  rmsds.csv
 
 Archive
 -------------------------------------------------------------------------------
