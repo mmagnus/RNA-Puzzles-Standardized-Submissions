@@ -2,25 +2,13 @@
 
 Look for other our projects at https://github.com/RNA-Puzzles
 
-[![Twitter Follow](http://img.shields.io/twitter/follow/rna_tools.svg?style=social&label=Follow)](https://twitter.com/rna_pdb_tools) [![tag](https://img.shields.io/github/release/mmagnus/RNA-Puzzles-Normalized-submissions.svg)](https://github.com/mmagnus/RNA-Puzzles-Normalized-submissions/releases) [![DOI](https://zenodo.org/badge/doi/10.5281/zenodo.60933.svg)](http://dx.doi.org/10.5281/zenodo.60933)
+Please Cite:
 
-Curated structures submitted to the RNA-Puzzles experiment, processed semi-manually by @mmagnus and with https://github.com/mmagnus/rna-tools .
+[![](https://img.shields.io/badge/doi-RNA--Puzzles%20toolkit%40Nucleic%20Acid%20Research-success.svg)](http://dx.doi.org/10.1093/nar/gkz1108)
 
-Reference of the RNA Puzzles experiment:
+[![Twitter Follow](http://img.shields.io/twitter/follow/rna_tools.svg?style=social&label=Follow)](https://twitter.com/rna_pdb_tools) [![tag](https://img.shields.io/github/release/mmagnus/RNA-Puzzles-Normalized-submissions.svg)](https://github.com/mmagnus/RNA-Puzzles-Normalized-submissions/releases)
 
-```
-Miao, Zhichao, et al.
-"RNA-Puzzles Round III: 3D RNA structure prediction of five riboswitches and one ribozyme."
-RNA 23.5 (2017): 655-672.
-
-Miao, Zhichao, et al.
-"RNA-Puzzles Round II: assessment of RNA structure prediction programs applied to three large RNA structures."
-Rna (2015).
-
-Cruz, José Almeida, et al.
-"RNA-Puzzles: a CASP-like evaluation of RNA three-dimensional structure prediction."
-Rna 18.4 (2012): 610-625.
-```
+Curated structures submitted to the RNA-Puzzles experiment, processed semi-manually by @mmagnus and with https://github.com/mmagnus/rna-tools and the community.
 
 The RNA Puzzles:
 
