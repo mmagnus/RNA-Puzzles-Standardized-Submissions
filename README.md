@@ -25,8 +25,7 @@ The RNA Puzzles:
 - Puzzle 11: 5′-terminal hairpin of the 7SK snRNA
 - Puzzle 12: YdaO riboswitch
 - Puzzle 13: ZMP riboswitch
-- Puzzle 14: L-glutamine riboswitch (Free)
-- Puzzle 14: L-glutamine riboswitch (Bound)
+- Puzzle 14: L-glutamine riboswitch (Free) & L-glutamine riboswitch (Bound)
 - Puzzle 15: Hammerhead
 - Puzzle 16: TBA
 - Puzzle 17: Pistol ribozyme
