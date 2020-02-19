@@ -35,4 +35,8 @@ The RNA Puzzles:
 - Puzzle 21: Guanidine III riboswitch
 - Puzzle 24: Adenovirus virus-associated RNA
 
+Please Cite:
+
+M. Magnus, M. Antczak, T. Zok, J. Wiedemann, P. Lukasiak, Y. Cao, Y. Cao, J. M. Bujnicki, E. Westhof, M. Szachniuk, and Z. Miao, “RNA-Puzzles toolkit: a computational resource of RNA 3D structure benchmark datasets, structure manipulation, and evaluation tools.,” Nucleic Acids Research, vol. 224, p. 759, Dec. 2019.
+
 Download a zip file https://github.com/mmagnus/RNA-Puzzles-Standardized-Submissions/archive/master.zip
