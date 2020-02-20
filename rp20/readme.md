@@ -66,49 +66,50 @@ RMSD:
 
 Infs:
 
-    [mm] rp20$ git:(master) ✗ rna_calc_inf.py -t 20_solution_0.pdb -f *.pdb
-    target                   fn                               inf_all  inf_stack  inf_WC  inf_nWC  sns_WC  ppv_WC  sns_nWC  ppv_nWC
-    20_solution_0.pdb.outCR  20_Das_4.pdb.outCR               0.498    0.000      0.957   0.612    0.917   1.000   0.500    0.750
-    20_solution_0.pdb.outCR  20_Bujnicki_5.pdb.outCR          0.499    0.122      0.979   0.408    0.958   1.000   0.333    0.500
-    20_solution_0.pdb.outCR  20_Bujnicki_1.pdb.outCR          0.499    0.000      0.957   0.667    0.917   1.000   0.667    0.667
-    20_solution_0.pdb.outCR  20_Das_5.pdb.outCR               0.487    0.000      0.935   0.612    0.875   1.000   0.500    0.750
-    20_solution_0.pdb.outCR  20_Das_1.pdb.outCR               0.489    0.000      0.935   0.667    0.875   1.000   0.667    0.667
-    20_solution_0.pdb.outCR  20_Bujnicki_2.pdb.outCR          0.501    0.000      0.979   0.617    0.958   1.000   0.667    0.571
-    20_solution_0.pdb.outCR  20_RNAComposerHuman_1.pdb.outCR  0.480    0.000      0.917   0.612    0.917   0.917   0.500    0.750
-    20_solution_0.pdb.outCR  20_Bujnicki_3.pdb.outCR          0.508    0.000      0.979   0.612    0.958   1.000   0.500    0.750
-    20_solution_0.pdb.outCR  20_Das_2.pdb.outCR               0.509    0.122      0.914   0.833    0.875   0.955   0.833    0.833
-    20_solution_0.pdb.outCR  20_RNAComposerHuman_2.pdb.outCR  0.508    0.000      1.000   0.471    1.000   1.000   0.333    0.667
-    20_solution_0.pdb.outCR  20_Das_3.pdb.outCR               0.509    0.000      0.979   0.667    0.958   1.000   0.667    0.667
-    20_solution_0.pdb.outCR  20_Bujnicki_4.pdb.outCR          0.469    0.000      0.914   0.548    0.875   0.955   0.500    0.600
-    20_solution_0.pdb.outCR  20_RNAComposer_2.pdb.outCR       0.499    0.000      1.000   0.408    1.000   1.000   0.333    0.500
-    20_solution_0.pdb.outCR  20_RNAComposerHuman_3.pdb.outCR  0.482    0.000      0.917   0.667    0.917   0.917   0.667    0.667
-    20_solution_0.pdb.outCR  20_RW3D_1.pdb.outCR              0.471    0.000      1.000   0.183    1.000   1.000   0.167    0.200
-    20_solution_0.pdb.outCR  20_RW3D_10.pdb.outCR             0.482    0.000      1.000   0.333    1.000   1.000   0.333    0.333
-    20_solution_0.pdb.outCR  20_RNAComposer_3.pdb.outCR       0.489    0.000      0.979   0.408    0.958   1.000   0.333    0.500
-    20_solution_0.pdb.outCR  20_RNAComposerHuman_4.pdb.outCR  0.482    0.000      0.917   0.667    0.917   0.917   0.667    0.667
-    20_solution_0.pdb.outCR  20_RW3D_2.pdb.outCR              0.482    0.000      1.000   0.333    1.000   1.000   0.333    0.333
-    20_solution_0.pdb.outCR  20_RNAComposer_4.pdb.outCR       0.518    0.122      0.979   0.612    0.958   1.000   0.500    0.750
-    20_solution_0.pdb.outCR  20_RNAComposerHuman_5.pdb.outCR  0.528    0.000      1.000   0.707    1.000   1.000   0.500    1.000
-    20_solution_0.pdb.outCR  20_RW3D_3.pdb.outCR              0.501    0.000      1.000   0.500    1.000   1.000   0.500    0.500
-    20_solution_0.pdb.outCR  20_RNAComposer_5.pdb.outCR       0.498    0.000      0.957   0.612    0.917   1.000   0.500    0.750
-    20_solution_0.pdb.outCR  20_RNAComposer_1.pdb.outCR       0.511    0.000      1.000   0.617    1.000   1.000   0.667    0.571
-    20_solution_0.pdb.outCR  20_RW3D_4.pdb.outCR              0.471    0.000      1.000   0.183    1.000   1.000   0.167    0.200
-    20_solution_0.pdb.outCR  20_RW3D_8.pdb.outCR              0.490    0.000      0.958   0.548    0.958   0.958   0.500    0.600
-    20_solution_0.pdb.outCR  20_Xiao3_3.pdb.outCR             0.355    0.000      0.736   0.236    0.542   1.000   0.167    0.333
-    20_solution_0.pdb.outCR  20_RW3D_5.pdb.outCR              0.482    0.000      1.000   0.333    1.000   1.000   0.333    0.333
-    20_solution_0.pdb.outCR  20_RW3D_9.pdb.outCR              0.471    0.000      1.000   0.183    1.000   1.000   0.167    0.200
-    20_solution_0.pdb.outCR  20_Xiao3_4.pdb.outCR             0.394    0.000      0.764   0.471    0.583   1.000   0.333    0.667
-    20_solution_0.pdb.outCR  20_RW3D_6.pdb.outCR              0.482    0.000      1.000   0.333    1.000   1.000   0.333    0.333
-    20_solution_0.pdb.outCR  20_Xiao3_1.pdb.outCR             0.409    0.000      0.842   0.236    0.708   1.000   0.167    0.333
-    20_solution_0.pdb.outCR  20_Xiao3_5.pdb.outCR             0.396    0.000      0.816   0.236    0.667   1.000   0.167    0.333
-    20_solution_0.pdb.outCR  20_RW3D_7.pdb.outCR              0.492    0.000      1.000   0.463    1.000   1.000   0.500    0.429
-    20_solution_0.pdb.outCR  20_Xiao3_2.pdb.outCR             0.345    0.000      0.707   0.365    0.500   1.000   0.333    0.400
-    20_solution_0.pdb.outCR  20_simRNA_1.pdb.outCR            0.000    0.000      0.000   0.000    0.000   0.000   0.000    0.000
-    20_solution_0.pdb.outCR  20_simRNA_2.pdb.outCR            0.087    0.000      0.178   0.000    0.167   0.190   0.000    0.000
-    20_solution_0.pdb.outCR  20_solution_0.pdb.outCR          0.556    0.000      1.000   1.000    1.000   1.000   1.000    1.000
-    20_solution_0.pdb.outCR  20_simRNA_3.pdb.outCR            0.000    0.000      0.000   0.000    0.000   0.000   0.000    0.000
-    20_solution_0.pdb.outCR  20_simRNA_4.pdb.outCR            0.156    0.000      0.348   0.000    0.333   0.364   0.000    0.000
-    20_solution_0.pdb.outCR  20_simRNA_5.pdb.outCR            0.098    0.000      0.218   0.000    0.208   0.227   0.000    0.000
+    (base) [mx] rp20$ git:(master) ✗ rna_calc_inf.py -t 20_solution_0.pdb *.pdb -pr -sr
+    100% (41 of 41) |#####################################################################################################################################################| Elapsed Time: 0:00:02 ETA:  00:00:00csv was created!  inf.csv
+                   target                         fn  inf_all  inf_stack  inf_WC  inf_nWC  sns_WC  ppv_WC  sns_nWC  ppv_nWC
+    37  20_solution_0.pdb          20_solution_0.pdb     1.00       1.00    1.00     1.00    1.00    1.00     1.00     1.00
+    1   20_solution_0.pdb          20_Bujnicki_1.pdb     0.90       0.90    0.96     0.67    0.92    1.00     0.67     0.67
+    3   20_solution_0.pdb          20_Bujnicki_2.pdb     0.89       0.88    0.98     0.62    0.96    1.00     0.67     0.57
+    6   20_solution_0.pdb          20_Bujnicki_3.pdb     0.88       0.86    0.98     0.61    0.96    1.00     0.50     0.75
+    20  20_solution_0.pdb  20_RNAComposerHuman_5.pdb     0.86       0.82    1.00     0.71    1.00    1.00     0.50     1.00
+    9   20_solution_0.pdb          20_Bujnicki_4.pdb     0.85       0.85    0.91     0.55    0.88    0.96     0.50     0.60
+    10  20_solution_0.pdb               20_Das_3.pdb     0.85       0.82    0.98     0.67    0.96    1.00     0.67     0.67
+    0   20_solution_0.pdb          20_Bujnicki_5.pdb     0.85       0.84    0.98     0.41    0.96    1.00     0.33     0.50
+    7   20_solution_0.pdb               20_Das_2.pdb     0.85       0.82    0.91     0.83    0.88    0.96     0.83     0.83
+    4   20_solution_0.pdb               20_Das_1.pdb     0.85       0.83    0.96     0.67    0.92    1.00     0.67     0.67
+    12  20_solution_0.pdb       20_RNAComposer_2.pdb     0.84       0.81    1.00     0.55    1.00    1.00     0.50     0.60
+    21  20_solution_0.pdb       20_RNAComposer_5.pdb     0.84       0.82    0.96     0.61    0.92    1.00     0.50     0.75
+    5   20_solution_0.pdb               20_Das_5.pdb     0.82       0.80    0.94     0.61    0.88    1.00     0.50     0.75
+    19  20_solution_0.pdb       20_RNAComposer_4.pdb     0.82       0.78    0.98     0.61    0.96    1.00     0.50     0.75
+    23  20_solution_0.pdb              20_RW3D_3.pdb     0.82       0.79    1.00     0.50    1.00    1.00     0.50     0.50
+    24  20_solution_0.pdb              20_RW3D_8.pdb     0.81       0.78    0.96     0.55    0.96    0.96     0.50     0.60
+    11  20_solution_0.pdb  20_RNAComposerHuman_2.pdb     0.81       0.76    1.00     0.47    1.00    1.00     0.33     0.67
+    15  20_solution_0.pdb       20_RNAComposer_3.pdb     0.81       0.78    0.98     0.41    0.96    1.00     0.33     0.50
+    2   20_solution_0.pdb               20_Das_4.pdb     0.80       0.76    0.96     0.61    0.92    1.00     0.50     0.75
+    14  20_solution_0.pdb              20_RW3D_1.pdb     0.80       0.78    1.00     0.18    1.00    1.00     0.17     0.20
+    35  20_solution_0.pdb              20_RW3D_7.pdb     0.80       0.76    1.00     0.46    1.00    1.00     0.50     0.43
+    31  20_solution_0.pdb              20_RW3D_6.pdb     0.80       0.77    1.00     0.33    1.00    1.00     0.33     0.33
+    22  20_solution_0.pdb       20_RNAComposer_1.pdb     0.80       0.74    1.00     0.62    1.00    1.00     0.67     0.57
+    28  20_solution_0.pdb              20_RW3D_5.pdb     0.79       0.76    1.00     0.33    1.00    1.00     0.33     0.33
+    8   20_solution_0.pdb  20_RNAComposerHuman_1.pdb     0.79       0.75    0.92     0.61    0.92    0.92     0.50     0.75
+    18  20_solution_0.pdb              20_RW3D_2.pdb     0.79       0.76    1.00     0.33    1.00    1.00     0.33     0.33
+    17  20_solution_0.pdb  20_RNAComposerHuman_4.pdb     0.79       0.75    0.92     0.67    0.92    0.92     0.67     0.67
+    13  20_solution_0.pdb  20_RNAComposerHuman_3.pdb     0.79       0.76    0.92     0.67    0.92    0.92     0.67     0.67
+    25  20_solution_0.pdb              20_RW3D_4.pdb     0.78       0.76    1.00     0.18    1.00    1.00     0.17     0.20
+    27  20_solution_0.pdb              20_RW3D_9.pdb     0.78       0.75    1.00     0.18    1.00    1.00     0.17     0.20
+    16  20_solution_0.pdb             20_RW3D_10.pdb     0.78       0.74    1.00     0.33    1.00    1.00     0.33     0.33
+    30  20_solution_0.pdb             20_Xiao3_4.pdb     0.75       0.77    0.76     0.47    0.58    1.00     0.33     0.67
+    33  20_solution_0.pdb             20_Xiao3_5.pdb     0.75       0.77    0.82     0.24    0.67    1.00     0.17     0.33
+    32  20_solution_0.pdb             20_Xiao3_2.pdb     0.72       0.76    0.71     0.36    0.50    1.00     0.33     0.40
+    26  20_solution_0.pdb             20_Xiao3_3.pdb     0.71       0.74    0.74     0.24    0.54    1.00     0.17     0.33
+    29  20_solution_0.pdb             20_Xiao3_1.pdb     0.71       0.70    0.84     0.24    0.71    1.00     0.17     0.33
+    39  20_solution_0.pdb            20_simRNA_4.pdb     0.56       0.66    0.38     0.17    0.38    0.39     0.17     0.17
+    34  20_solution_0.pdb            20_simRNA_2.pdb     0.54       0.69    0.18     0.00    0.17    0.19     0.00     0.00
+    40  20_solution_0.pdb            20_simRNA_5.pdb     0.54       0.69    0.22     0.00    0.21    0.23     0.00     0.00
+    36  20_solution_0.pdb            20_simRNA_1.pdb     0.43       0.62    0.00     0.00    0.00    0.00     0.00     0.00
+    38  20_solution_0.pdb            20_simRNA_3.pdb     0.42       0.60    0.00     0.00    0.00    0.00     0.00     0.00
 
 Processing:
 
