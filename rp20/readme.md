@@ -3,13 +3,14 @@ RNA-Puzzle 20
 
 Solution sequence vs target sequence:
 
-> 21_solution_2 A:1-41
-CCGGACGAGGUGCGCCGUACCCGGUCACGACAAGACGGCGC
-> 21_3dRNA_1_rpr A:1-41
-CCGGACGAGGUGCGCCGUACCCGGUCACGACAAGACGGCGC
+    > 21_solution_2 A:1-41
+    CCGGACGAGGUGCGCCGUACCCGGUCACGACAAGACGGCGC
+    > 21_3dRNA_1_rpr A:1-41
+    CCGGACGAGGUGCGCCGUACCCGGUCACGACAAGACGGCGC
+
 Processing:
 
-rna_pdb_toolsx.py --rpr --inplace --dont_rename_chains *
+    rna_pdb_toolsx.py --rpr --inplace --dont_rename_chains *
 
 Twister Sister robozyme
 
