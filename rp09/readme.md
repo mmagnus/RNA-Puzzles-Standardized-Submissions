@@ -7,7 +7,24 @@ Bujnicki group submitted models with the ligand. The models can be found in `/wi
 
 Issues:
 
-- Missing Bujnicki 1 & 2 files
+Bujnicki 1 & 2 files are moved to wrong-seqs, since they contain wrong sequence.
+
+    rna_pdb_toolsx.py --get-seq 9_Buj*
+    # 9_Bujnicki_1_rpr
+    >A:1-68
+    GACACUGAUGAUCGCGUGGAUAUGGCACGCAUUGAAUUGUUGGACACCGUAAAUGUCCUAACACGUUC
+    # 9_Bujnicki_2_rpr
+    >A:14-81
+    GACACUGAUGAUCGCGUGGAUAUGGCACGCAUUGAAUUGUUGGACACCGUAAAUGUCCUAACACGUUC
+    # 9_Bujnicki_3_rpr
+    >A:1-71
+    GGACACUGAUGAUCGCGUGGAUAUGGCACGCAUUGAAUUGUUGGACACCGUAAAUGUCCUAACACGUGUCC
+    # 9_Bujnicki_4_rpr
+    >A:1-71
+    GGACACUGAUGAUCGCGUGGAUAUGGCACGCAUUGAAUUGUUGGACACCGUAAAUGUCCUAACACGUGUCC
+    # 9_Bujnicki_5_rpr
+    >A:1-71
+    GGACACUGAUGAUCGCGUGGAUAUGGCACGCAUUGAAUUGUUGGACACCGUAAAUGUCCUAACACGUGUCC
 
 Changes:
 
