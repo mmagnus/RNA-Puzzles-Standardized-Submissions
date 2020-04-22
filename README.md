@@ -40,3 +40,9 @@ Please Cite:
 M. Magnus, M. Antczak, T. Zok, J. Wiedemann, P. Lukasiak, Y. Cao, Y. Cao, J. M. Bujnicki, E. Westhof, M. Szachniuk, and Z. Miao, “RNA-Puzzles toolkit: a computational resource of RNA 3D structure benchmark datasets, structure manipulation, and evaluation tools.,” Nucleic Acids Research, vol. 224, p. 759, Dec. 2019.
 
 Download a zip file https://github.com/mmagnus/RNA-Puzzles-Standardized-Submissions/archive/master.zip
+
+Used in:
+
+[1]	T. Zhang, G. Hu, Y. Yang, J. Wang, and Y. Zhou, “All-Atom Knowledge-Based Potential for RNA Structure Discrimination Based on the Distance-Scaled Finite Ideal-Gas Reference State,” J. Comput. Biol., pp. cmb.2019.0251–12, Oct. 2019.
+
+[2] Li, J., Zhu, W., Wang, J., Li, W., Gong, S., Zhang, J., & Wang, W. (2018). RNA3DCNN: Local and global quality assessments of RNA 3D structures using 3D deep convolutional neural networks. PLoS Computational Biology, 14(11), e1006514. http://doi.org/10.1371/journal.pcbi.1006514
