@@ -16,9 +16,9 @@ A   20   A   21          bp A A                      >>   0.9275
 A   22   A   23          bp U A                      >>   0.9256
 A   25   A   26          bp U U                      >>   0.6396
 A   25   A   62          bp U A                  WW_cis   0.8448
+A   27   A   28          bp G C                      >>   0.8062
 A   27   A   61          bp G A                      <>   0.8122
 A   27   A   60          bp G C                  WW_cis   0.6732
-A   27   A   28          bp G C                      >>   0.8062
 A   28   A   59          bp C G                  WW_cis   0.6962
 A   28   A   29          bp C U                      >>   0.9569
 A   29   A   40          bp U G                  WW_cis   0.6651
@@ -26,10 +26,10 @@ A   30   A   31          bp U A                      >>   0.8845
 A   30   A   39          bp U A                  WW_cis   0.9180
 A   30   A   40          bp U G                      <>   0.9090
 A   31   A   32          bp A A                      >>   0.8177
-A   31   A   38          bp A A                  WW_cis   0.6960
 A   31   A   39          bp A A                      <>   0.8138
-A   32   A   38          bp A A                      <>   0.6273
+A   31   A   38          bp A A                  WW_cis   0.6960
 A   32   A   37          bp A U                  WW_cis   0.8950
+A   32   A   38          bp A A                      <>   0.6273
 A   33   A   35          bp G C                      ><   0.9270
 A   36   A   37          bp C U                      >>   0.9018
 A   37   A   38          bp U A                      >>   0.8938
@@ -39,8 +39,8 @@ A   43   A   56          bp U G                  WW_cis   0.7953
 A   44   A   55          bp U A                  WW_cis   0.8791
 A   44   A   56          bp U G                      <>   0.9197
 A   45   A   46          bp G A                      >>   0.9554
-A   45   A   55          bp G A                      <>   0.8586
 A   45   A   54          bp G C                  WW_cis   0.8034
+A   45   A   55          bp G A                      <>   0.8586
 A   46   A   47          bp A U                      >>   0.9641
 A   46   A   53          bp A U                  WW_cis   0.6165
 A   47   A   52          bp U A                  WW_cis   0.9559
