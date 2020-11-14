@@ -14,9 +14,9 @@ GGGUCAGGCCGGCGAAAGUCGCCACAGUUUGGGGAAAGCUGUGCAGCCUGUAACCCCCCCACGAAAGUGGG
 Problem with this file. Move to problms.
 
 ```
-> 18_Nikolay_1_rpr A:1-40
+> 18_Dokholyan_1_rpr A:1-40
 GCAGGGCAAGGCCCAGUCCCGUGCAAGCCGGGACCGCCCC
-> 18_Nikolay_1_rpr B:1-22
+> 18_Dokholyan_1_rpr B:1-22
 GGGGCGCGGCGCUCAUUCCUGC
 ```
 
@@ -48,11 +48,11 @@ rmsd_calc_rmsd_to_target
 18_Dokholyan_1_rpr.pdb 8.44028913454 1527
 18_Dokholyan_2_rpr.pdb 11.9535363029 1527
 18_Dokholyan_3_rpr.pdb 7.90299493677 1527
-18_Feng_1_rpr.pdb 20.280072492 1527
-18_Feng_2_rpr.pdb 21.1300042248 1527
-18_Feng_3_rpr.pdb 16.4499351342 1527
-18_Feng_4_rpr.pdb 24.9244273108 1527
-18_Feng_5_rpr.pdb 16.1484119123 1527
+18_Ding_1_rpr.pdb 20.280072492 1527
+18_Ding_2_rpr.pdb 21.1300042248 1527
+18_Ding_3_rpr.pdb 16.4499351342 1527
+18_Ding_4_rpr.pdb 24.9244273108 1527
+18_Ding_5_rpr.pdb 16.1484119123 1527
 18_LeeASmodel_1_rpr.pdb 23.1716313885 1527
 18_LeeASmodel_2_rpr.pdb 23.4978795436 1527
 18_LeeASmodel_3_rpr.pdb 21.4250962129 1527
@@ -78,15 +78,15 @@ rmsd_calc_rmsd_to_target
 18_RW3D_8_rpr.pdb 15.7073229859 1527
 18_RW3D_9_rpr.pdb 17.2076015535 1527
 18_RW3D_10_rpr.pdb 13.3830149599 1527
-18_Rhiju_1_rpr.pdb 5.49617190776 1527
-18_Rhiju_2_rpr.pdb 3.87747762683 1527
-18_Rhiju_3_rpr.pdb 5.63291859804 1527
-18_Rhiju_4_rpr.pdb 5.69820182917 1527
-18_Rhiju_5_rpr.pdb 10.9037306441 1527
+18_Das_1_rpr.pdb 5.49617190776 1527
+18_Das_2_rpr.pdb 3.87747762683 1527
+18_Das_3_rpr.pdb 5.63291859804 1527
+18_Das_4_rpr.pdb 5.69820182917 1527
+18_Das_5_rpr.pdb 10.9037306441 1527
 18_YagoubAli_1_rpr.pdb 18.6711314368 1527
-18_simRNA_1_rpr.pdb 23.1414073391 1527
-18_simRNA_2_rpr.pdb 10.2767963136 1527
-18_simRNA_3_rpr.pdb 24.6325094194 1527
+18_SimRNA_1_rpr.pdb 23.1414073391 1527
+18_SimRNA_2_rpr.pdb 10.2767963136 1527
+18_SimRNA_3_rpr.pdb 24.6325094194 1527
 # of atoms used: 1527
 csv was created!  rmsds.csv
 ```
