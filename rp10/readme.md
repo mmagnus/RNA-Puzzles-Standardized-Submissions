@@ -51,38 +51,37 @@ Calculate Interaction Network Fidelity (INF) etc using ClaRNA.
 Calculate Rmsd:
 
 ```
-rna_calc_rmsd.py -t 10_0_solution_4LCK_rpr.pdb --target_selection 'A:1-96+B:6-66' --model_selection 'A:1-96+B:6-66' *.pdb
-rmsd_calc_rmsd_to_target
---------------------------------------------------------------------------------
-method: all-atom-built-in
+rna_calc_rmsd.py -t 10_solution_0_rpr.pdb --target-selection 'A:1-96+B:6-66' --model-selection 'A:1-96+B:6-66' *.pdb -pr -sr # 201114
+# method: all-atom-built-in
 # of models: 27
-10_0_solution_4LCK_rpr.pdb 0.0 3372
-10_BUJNICKI_1_rpr.pdb 10.17 3372
-10_BUJNICKI_2_rpr.pdb 10.38 3372
-10_BUJNICKI_3_rpr.pdb 10.37 3372
-10_BUJNICKI_4_rpr.pdb 9.33 3372
-10_BUJNICKI_5_rpr.pdb 10.27 3372
-10_BUJNICKI_6_rpr.pdb 10.35 3372
-10_BUJNICKI_7_rpr.pdb 10.24 3372
-10_BUJNICKI_8_rpr.pdb 10.19 3372
-10_BUJNICKI_9_rpr.pdb 10.35 3372
-10_BUJNICKI_10_rpr.pdb 10.39 3372
-10_CHEN_1_rpr.pdb 11.33 3372
-10_DAS_1_rpr.pdb 7.61 3372
-10_DAS_2_rpr.pdb 10.5 3372
-10_DAS_3_rpr.pdb 6.84 3372
-10_DAS_4_rpr.pdb 7.08 3372
-10_DAS_5_rpr.pdb 10.45 3372
-10_DING_1_rpr.pdb 13.15 3372
-10_DING_2_rpr.pdb 14.01 3372
-10_DING_3_rpr.pdb 12.5 3372
-10_DING_4_rpr.pdb 13.35 3372
-10_DING_5_rpr.pdb 16.73 3372
-10_DING_6_rpr.pdb 17.42 3372
-10_DING_7_rpr.pdb 16.25 3372
-10_DING_8_rpr.pdb 15.57 3372
-10_DING_9_rpr.pdb 16.66 3372
-10_DING_10_rpr.pdb 13.19 3372
 # of atoms used: 3372
+                         fn  rmsd_all
+26    10_solution_0_rpr.pdb      0.00
+13         10_Das_3_rpr.pdb      6.84
+14         10_Das_4_rpr.pdb      7.08
+11         10_Das_1_rpr.pdb      7.61
+3     10_Bujnicki_4_rpr.pdb      9.33
+0     10_Bujnicki_1_rpr.pdb     10.17
+7     10_Bujnicki_8_rpr.pdb     10.19
+6     10_Bujnicki_7_rpr.pdb     10.24
+4     10_Bujnicki_5_rpr.pdb     10.27
+8     10_Bujnicki_9_rpr.pdb     10.35
+5     10_Bujnicki_6_rpr.pdb     10.35
+2     10_Bujnicki_3_rpr.pdb     10.37
+1     10_Bujnicki_2_rpr.pdb     10.38
+9    10_Bujnicki_10_rpr.pdb     10.39
+15         10_Das_5_rpr.pdb     10.45
+12         10_Das_2_rpr.pdb     10.50
+10        10_Chen_1_rpr.pdb     11.33
+18   10_Dokholyan_3_rpr.pdb     12.50
+16   10_Dokholyan_1_rpr.pdb     13.15
+25  10_Dokholyan_10_rpr.pdb     13.19
+19   10_Dokholyan_4_rpr.pdb     13.35
+17   10_Dokholyan_2_rpr.pdb     14.01
+23   10_Dokholyan_8_rpr.pdb     15.57
+22   10_Dokholyan_7_rpr.pdb     16.25
+24   10_Dokholyan_9_rpr.pdb     16.66
+20   10_Dokholyan_5_rpr.pdb     16.73
+21   10_Dokholyan_6_rpr.pdb     17.42
 csv was created!  rmsds.csv
 ```

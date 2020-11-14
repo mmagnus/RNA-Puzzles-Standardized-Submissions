@@ -1,7 +1,7 @@
-REMARK 250 Generated with rna-pdb-tools
-REMARK 250 ver v0.99-8-ge3d9e12-dirty 
-REMARK 250 https://github.com/mmagnus/rna-pdb-tools 
-REMARK 250 Thu May 18 12:45:26 2017
+REMARK 250 Model edited with rna-pdb-tools
+REMARK 250  ver v0.99-162-g6f15138-dirty 
+REMARK 250  https://github.com/mmagnus/rna-pdb-tools 
+REMARK 250  Fri Jul 14 18:58:50 2017
 ATOM      1  P     U A   1     224.098 265.419 305.382  1.00  0.00           P
 ATOM      2  OP1   U A   1     223.541 265.617 304.008  1.00  0.00           O
 ATOM      3  OP2   U A   1     225.082 264.374 305.679  1.00  0.00           O
