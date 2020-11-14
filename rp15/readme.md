@@ -4,9 +4,9 @@ RNA-Puzzle 15
 Solution sequence vs target sequence:
 
 ```
-> 15_RW2DAS1_9_rpr A:1-48
+> 15_RW3DAS1_9_rpr A:1-48
 GGGUACUUAAGCCCACUGAUGAGUCGCUGGGAUGCGACGAAACGCCCA
-> 15_RW2DAS1_9_rpr B:1-20
+> 15_RW3DAS1_9_rpr B:1-20
 GGGCGUCUGGGCAGUACCCA
 
 > 15_solution_0_rpr A:1-48
@@ -19,7 +19,7 @@ Edit chains:
 
 	for i in `ls *3dRNA*`; do rna_pdb_tools.py --edit 'B:49-68>B:1-20' $i > ${i}_temp; mv ${i}_temp ${i}; done
 	for i in `ls *Chen*`; do rna_pdb_tools.py --edit 'B:52-71>B:1-20' $i > ${i}_temp; mv ${i}_temp ${i}; done
-	for i in `ls *RW2DAS*`; do rna_pdb_tools.py --edit 'A:49-68>B:1-20' $i > ${i}_temp; mv ${i}_temp ${i}; done
+	for i in `ls *RW3DAS*`; do rna_pdb_tools.py --edit 'A:49-68>B:1-20' $i > ${i}_temp; mv ${i}_temp ${i}; done
 
 RMSD
 -------------------------------------------------------------------------------
@@ -51,41 +51,41 @@ rna_calc_rmsd.py -t 15_solution_0_rpr.pdb --model-selection A:1-48+B:1-20 --targ
 70       15_SimRNAAS2_7_rpr.pdb      9.46
 20            15_Chen_1_rpr.pdb      9.58
 23            15_Chen_4_rpr.pdb     10.17
-47         15_RW2DAS2_4_rpr.pdb     10.27
-48         15_RW2DAS2_5_rpr.pdb     11.00
+47         15_RW3DAS2_4_rpr.pdb     10.27
+48         15_RW3DAS2_5_rpr.pdb     11.00
 26            15_Chen_7_rpr.pdb     11.19
 67       15_SimRNAAS2_4_rpr.pdb     11.48
 27            15_Chen_8_rpr.pdb     12.14
-44         15_RW2DAS2_1_rpr.pdb     12.16
-38         15_RW2DAS1_5_rpr.pdb     12.56
-51         15_RW2DAS2_8_rpr.pdb     13.41
+44         15_RW3DAS2_1_rpr.pdb     12.16
+38         15_RW3DAS1_5_rpr.pdb     12.56
+51         15_RW3DAS2_8_rpr.pdb     13.41
 28            15_Chen_9_rpr.pdb     13.48
-50         15_RW2DAS2_7_rpr.pdb     13.76
+50         15_RW3DAS2_7_rpr.pdb     13.76
 72       15_SimRNAAS2_9_rpr.pdb     13.92
-53        15_RW2DAS2_10_rpr.pdb     14.49
-37         15_RW2DAS1_4_rpr.pdb     14.58
-42         15_RW2DAS1_9_rpr.pdb     14.61
-52         15_RW2DAS2_9_rpr.pdb     14.67
-40         15_RW2DAS1_7_rpr.pdb     14.88
+53        15_RW3DAS2_10_rpr.pdb     14.49
+37         15_RW3DAS1_4_rpr.pdb     14.58
+42         15_RW3DAS1_9_rpr.pdb     14.61
+52         15_RW3DAS2_9_rpr.pdb     14.67
+40         15_RW3DAS1_7_rpr.pdb     14.88
 64       15_SimRNAAS2_1_rpr.pdb     15.09
-39         15_RW2DAS1_6_rpr.pdb     15.29
-36         15_RW2DAS1_3_rpr.pdb     15.31
-35         15_RW2DAS1_2_rpr.pdb     15.45
+39         15_RW3DAS1_6_rpr.pdb     15.29
+36         15_RW3DAS1_3_rpr.pdb     15.31
+35         15_RW3DAS1_2_rpr.pdb     15.45
 21            15_Chen_2_rpr.pdb     15.74
 24            15_Chen_5_rpr.pdb     16.08
-46         15_RW2DAS2_3_rpr.pdb     16.31
-45         15_RW2DAS2_2_rpr.pdb     16.43
+46         15_RW3DAS2_3_rpr.pdb     16.31
+45         15_RW3DAS2_2_rpr.pdb     16.43
 56       15_SimRNAAS1_3_rpr.pdb     17.07
-34         15_RW2DAS1_1_rpr.pdb     17.07
-43        15_RW2DAS1_10_rpr.pdb     17.60
-49         15_RW2DAS2_6_rpr.pdb     17.97
+34         15_RW3DAS1_1_rpr.pdb     17.07
+43        15_RW3DAS1_10_rpr.pdb     17.60
+49         15_RW3DAS2_6_rpr.pdb     17.97
 60       15_SimRNAAS1_7_rpr.pdb     18.27
 65       15_SimRNAAS2_2_rpr.pdb     18.73
 62       15_SimRNAAS1_9_rpr.pdb     19.14
 63      15_SimRNAAS1_10_rpr.pdb     19.42
 73      15_SimRNAAS2_10_rpr.pdb     19.44
 66       15_SimRNAAS2_3_rpr.pdb     19.83
-41         15_RW2DAS1_8_rpr.pdb     19.83
+41         15_RW3DAS1_8_rpr.pdb     19.83
 61       15_SimRNAAS1_8_rpr.pdb     19.91
 68       15_SimRNAAS2_5_rpr.pdb     20.08
 69       15_SimRNAAS2_6_rpr.pdb     20.46
@@ -123,52 +123,52 @@ rna_calc_inf.py -t 15_solution_0_rpr.pdb *.pdb -pr -sr -f
 16  15_solution_0_rpr.pdb         15_Adamiak_2_rpr.pdb     0.82       0.81    0.86     0.75    1.00    0.74     0.75     0.75
 14  15_solution_0_rpr.pdb         15_Adamiak_8_rpr.pdb     0.81       0.83    0.84     0.50    1.00    0.71     0.25     1.00
 10  15_solution_0_rpr.pdb        15_Adamiak_10_rpr.pdb     0.80       0.81    0.84     0.35    1.00    0.71     0.25     0.50
-48  15_solution_0_rpr.pdb        15_RW2DAS2_10_rpr.pdb     0.80       0.83    0.81     0.45    0.94    0.70     0.50     0.40
+48  15_solution_0_rpr.pdb        15_RW3DAS2_10_rpr.pdb     0.80       0.83    0.81     0.45    0.94    0.70     0.50     0.40
 30  15_solution_0_rpr.pdb            15_Chen_4_rpr.pdb     0.80       0.81    0.85     0.58    0.94    0.76     0.50     0.67
 21  15_solution_0_rpr.pdb            15_Chen_1_rpr.pdb     0.79       0.80    0.79     0.58    0.88    0.71     0.50     0.67
 33  15_solution_0_rpr.pdb            15_Chen_5_rpr.pdb     0.79       0.80    0.79     0.58    0.88    0.71     0.50     0.67
 38  15_solution_0_rpr.pdb  15_RNAComposerAS2_2_rpr.pdb     0.78       0.77    0.84     0.71    1.00    0.71     0.50     1.00
-51  15_solution_0_rpr.pdb         15_RW2DAS2_1_rpr.pdb     0.78       0.78    0.81     0.67    0.94    0.70     0.75     0.60
+51  15_solution_0_rpr.pdb         15_RW3DAS2_1_rpr.pdb     0.78       0.78    0.81     0.67    0.94    0.70     0.75     0.60
 2   15_solution_0_rpr.pdb         15_Adamiak_4_rpr.pdb     0.78       0.76    0.86     0.71    1.00    0.74     0.50     1.00
 34  15_solution_0_rpr.pdb  15_RNAComposerAS2_1_rpr.pdb     0.78       0.76    0.86     0.71    1.00    0.74     0.50     1.00
-23  15_solution_0_rpr.pdb         15_RW2DAS1_1_rpr.pdb     0.78       0.79    0.83     0.41    0.94    0.73     0.50     0.33
+23  15_solution_0_rpr.pdb         15_RW3DAS1_1_rpr.pdb     0.78       0.79    0.83     0.41    0.94    0.73     0.50     0.33
 5   15_solution_0_rpr.pdb         15_Adamiak_5_rpr.pdb     0.78       0.77    0.84     0.71    1.00    0.71     0.50     1.00
 24  15_solution_0_rpr.pdb            15_Chen_2_rpr.pdb     0.78       0.78    0.83     0.67    0.94    0.73     0.75     0.60
 68  15_solution_0_rpr.pdb       15_SimRNAAS2_8_rpr.pdb     0.78       0.79    0.81     0.45    0.94    0.70     0.50     0.40
 11  15_solution_0_rpr.pdb         15_Adamiak_7_rpr.pdb     0.78       0.78    0.86     0.50    1.00    0.74     0.25     1.00
-55  15_solution_0_rpr.pdb         15_RW2DAS2_9_rpr.pdb     0.78       0.78    0.81     0.67    0.94    0.70     0.75     0.60
-40  15_solution_0_rpr.pdb         15_RW2DAS1_7_rpr.pdb     0.77       0.77    0.83     0.45    0.94    0.73     0.50     0.40
-37  15_solution_0_rpr.pdb         15_RW2DAS1_6_rpr.pdb     0.77       0.78    0.83     0.29    0.94    0.73     0.25     0.33
-45  15_solution_0_rpr.pdb         15_RW2DAS1_9_rpr.pdb     0.76       0.77    0.83     0.38    0.94    0.73     0.50     0.29
-54  15_solution_0_rpr.pdb         15_RW2DAS2_2_rpr.pdb     0.76       0.77    0.79     0.50    0.94    0.67     0.50     0.50
-46  15_solution_0_rpr.pdb         15_RW2DAS2_6_rpr.pdb     0.76       0.78    0.81     0.41    0.94    0.70     0.50     0.33
-35  15_solution_0_rpr.pdb         15_RW2DAS1_5_rpr.pdb     0.76       0.77    0.81     0.45    0.94    0.70     0.50     0.40
-49  15_solution_0_rpr.pdb         15_RW2DAS2_7_rpr.pdb     0.76       0.76    0.81     0.45    0.94    0.70     0.50     0.40
+55  15_solution_0_rpr.pdb         15_RW3DAS2_9_rpr.pdb     0.78       0.78    0.81     0.67    0.94    0.70     0.75     0.60
+40  15_solution_0_rpr.pdb         15_RW3DAS1_7_rpr.pdb     0.77       0.77    0.83     0.45    0.94    0.73     0.50     0.40
+37  15_solution_0_rpr.pdb         15_RW3DAS1_6_rpr.pdb     0.77       0.78    0.83     0.29    0.94    0.73     0.25     0.33
+45  15_solution_0_rpr.pdb         15_RW3DAS1_9_rpr.pdb     0.76       0.77    0.83     0.38    0.94    0.73     0.50     0.29
+54  15_solution_0_rpr.pdb         15_RW3DAS2_2_rpr.pdb     0.76       0.77    0.79     0.50    0.94    0.67     0.50     0.50
+46  15_solution_0_rpr.pdb         15_RW3DAS2_6_rpr.pdb     0.76       0.78    0.81     0.41    0.94    0.70     0.50     0.33
+35  15_solution_0_rpr.pdb         15_RW3DAS1_5_rpr.pdb     0.76       0.77    0.81     0.45    0.94    0.70     0.50     0.40
+49  15_solution_0_rpr.pdb         15_RW3DAS2_7_rpr.pdb     0.76       0.76    0.81     0.45    0.94    0.70     0.50     0.40
 69  15_solution_0_rpr.pdb       15_SimRNAAS2_2_rpr.pdb     0.76       0.78    0.79     0.25    0.94    0.67     0.25     0.25
 8   15_solution_0_rpr.pdb         15_Adamiak_6_rpr.pdb     0.76       0.76    0.86     0.35    1.00    0.74     0.25     0.50
 71  15_solution_0_rpr.pdb       15_SimRNAAS2_3_rpr.pdb     0.75       0.75    0.81     0.50    0.94    0.70     0.50     0.50
 64  15_solution_0_rpr.pdb       15_SimRNAAS2_6_rpr.pdb     0.75       0.77    0.81     0.22    0.94    0.70     0.25     0.20
 17  15_solution_0_rpr.pdb         15_Adamiak_9_rpr.pdb     0.75       0.72    0.86     0.71    1.00    0.74     0.50     1.00
 36  15_solution_0_rpr.pdb            15_Chen_6_rpr.pdb     0.75       0.75    0.83     0.35    0.94    0.73     0.25     0.50
-26  15_solution_0_rpr.pdb         15_RW2DAS1_2_rpr.pdb     0.75       0.75    0.83     0.35    0.94    0.73     0.25     0.50
-29  15_solution_0_rpr.pdb         15_RW2DAS1_3_rpr.pdb     0.74       0.74    0.81     0.50    0.94    0.70     0.50     0.50
+26  15_solution_0_rpr.pdb         15_RW3DAS1_2_rpr.pdb     0.75       0.75    0.83     0.35    0.94    0.73     0.25     0.50
+29  15_solution_0_rpr.pdb         15_RW3DAS1_3_rpr.pdb     0.74       0.74    0.81     0.50    0.94    0.70     0.50     0.50
 73  15_solution_0_rpr.pdb       15_SimRNAAS2_4_rpr.pdb     0.74       0.75    0.81     0.41    0.94    0.70     0.50     0.33
-52  15_solution_0_rpr.pdb         15_RW2DAS2_8_rpr.pdb     0.74       0.74    0.81     0.50    0.94    0.70     0.50     0.50
+52  15_solution_0_rpr.pdb         15_RW3DAS2_8_rpr.pdb     0.74       0.74    0.81     0.50    0.94    0.70     0.50     0.50
 70  15_solution_0_rpr.pdb       15_SimRNAAS2_9_rpr.pdb     0.74       0.74    0.85     0.38    0.94    0.76     0.50     0.29
-43  15_solution_0_rpr.pdb         15_RW2DAS2_5_rpr.pdb     0.74       0.75    0.81     0.45    0.94    0.70     0.50     0.40
+43  15_solution_0_rpr.pdb         15_RW3DAS2_5_rpr.pdb     0.74       0.75    0.81     0.45    0.94    0.70     0.50     0.40
 39  15_solution_0_rpr.pdb            15_Chen_7_rpr.pdb     0.74       0.75    0.83     0.00    0.94    0.73     0.00     0.00
-41  15_solution_0_rpr.pdb        15_RW2DAS1_10_rpr.pdb     0.74       0.75    0.83     0.38    0.94    0.73     0.50     0.29
-32  15_solution_0_rpr.pdb         15_RW2DAS1_4_rpr.pdb     0.74       0.74    0.83     0.38    0.94    0.73     0.50     0.29
+41  15_solution_0_rpr.pdb        15_RW3DAS1_10_rpr.pdb     0.74       0.75    0.83     0.38    0.94    0.73     0.50     0.29
+32  15_solution_0_rpr.pdb         15_RW3DAS1_4_rpr.pdb     0.74       0.74    0.83     0.38    0.94    0.73     0.50     0.29
 58  15_solution_0_rpr.pdb      15_SimRNAAS1_10_rpr.pdb     0.74       0.78    0.69     0.45    0.82    0.58     0.50     0.40
 67  15_solution_0_rpr.pdb       15_SimRNAAS2_1_rpr.pdb     0.73       0.74    0.83     0.38    0.94    0.73     0.50     0.29
 66  15_solution_0_rpr.pdb       15_SimRNAAS2_7_rpr.pdb     0.73       0.73    0.81     0.45    0.94    0.70     0.50     0.40
-57  15_solution_0_rpr.pdb         15_RW2DAS2_3_rpr.pdb     0.73       0.74    0.81     0.35    0.94    0.70     0.50     0.25
+57  15_solution_0_rpr.pdb         15_RW3DAS2_3_rpr.pdb     0.73       0.74    0.81     0.35    0.94    0.70     0.50     0.25
 61  15_solution_0_rpr.pdb       15_SimRNAAS1_1_rpr.pdb     0.73       0.74    0.81     0.25    0.94    0.70     0.25     0.25
-60  15_solution_0_rpr.pdb         15_RW2DAS2_4_rpr.pdb     0.73       0.76    0.81     0.19    0.94    0.70     0.25     0.14
+60  15_solution_0_rpr.pdb         15_RW3DAS2_4_rpr.pdb     0.73       0.76    0.81     0.19    0.94    0.70     0.25     0.14
 74  15_solution_0_rpr.pdb       15_SimRNAAS2_5_rpr.pdb     0.73       0.74    0.81     0.41    0.94    0.70     0.50     0.33
 13  15_solution_0_rpr.pdb         15_Adamiak_1_rpr.pdb     0.73       0.72    0.79     0.58    0.88    0.71     0.50     0.67
 22  15_solution_0_rpr.pdb            15_Chen_8_rpr.pdb     0.73       0.74    0.78     0.35    0.82    0.74     0.25     0.50
-42  15_solution_0_rpr.pdb         15_RW2DAS1_8_rpr.pdb     0.72       0.73    0.81     0.38    0.94    0.70     0.50     0.29
+42  15_solution_0_rpr.pdb         15_RW3DAS1_8_rpr.pdb     0.72       0.73    0.81     0.38    0.94    0.70     0.50     0.29
 65  15_solution_0_rpr.pdb      15_SimRNAAS2_10_rpr.pdb     0.72       0.72    0.81     0.25    0.94    0.70     0.25     0.25
 63  15_solution_0_rpr.pdb       15_SimRNAAS1_9_rpr.pdb     0.72       0.74    0.74     0.50    0.82    0.67     0.50     0.50
 1   15_solution_0_rpr.pdb        15_3dRNAAS2_7_rpr.pdb     0.71       0.70    0.76     0.71    0.82    0.70     0.50     1.00
