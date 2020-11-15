@@ -7,7 +7,7 @@ Solution sequence vs target sequence:
 > 6_0_solution_4GXY_rpr A:1-17 24-110 115-168
 CGGCAGGUGCUCCCGACGUCGGGAGUUAAAAGGGAAGCCGGUGCAAGUCCGGCACGGUCCCGCCACUGUGACGGGGAGUCGCCCCUCGGGAUGUGCCACUGGCCGGCCGGGAAGGCGGAGGGGCGGCGAGGAUCCGGAGUCAGGAAACCUGCCUGCCG
 
-> 6_Blanchet_1_rpr A:1-168
+> 6_Major_1_rpr A:1-168
 CGGCAGGUGCUCCCGACCCUGCGGUCGGGAGUUAAAAGGGAAGCCGGUGCAAGUCCGGCACGGUCCCGCCACUGUGACGGGGAGUCGCCCCUCGGGAUGUGCCACUGGCCCGAAGGCCGGGAAGGCGGAGGGGCGGCGAGGAUCCGGAGUCAGGAAACCUGCCUGCCG
 ```
 
@@ -47,13 +47,13 @@ method: all-atom-built-in
 method: all-atom-built-in
 # of models: 35
 6_0_solution_4GXY_rpr.pdb 0.0 3409
-6_Blanchet_1_rpr.pdb 22.31 3409
-6_Blanchet_2_rpr.pdb 21.76 3409
-6_Blanchet_3_rpr.pdb 21.32 3409
-6_Blanchet_4_rpr.pdb 22.22 3409
-6_Blanchet_5_rpr.pdb 24.17 3409
-6_Blanchet_6_rpr.pdb 23.28 3409
-6_Blanchet_7_rpr.pdb 22.26 3409
+6_Major_1_rpr.pdb 22.31 3409
+6_Major_2_rpr.pdb 21.76 3409
+6_Major_3_rpr.pdb 21.32 3409
+6_Major_4_rpr.pdb 22.22 3409
+6_Major_5_rpr.pdb 24.17 3409
+6_Major_6_rpr.pdb 23.28 3409
+6_Major_7_rpr.pdb 22.26 3409
 6_Bujnicki_1_rpr.pdb 36.95 3409
 6_Bujnicki_2_rpr.pdb 30.9 3409
 6_Bujnicki_3_rpr.pdb 32.1 3409
@@ -65,16 +65,16 @@ method: all-atom-built-in
 6_Chen_5_rpr.pdb 23.53 3409
 6_Chen_6_rpr.pdb 35.93 3409
 6_Chen_7_rpr.pdb 30.97 3409
-6_DAS_1_rpr.pdb 14.11 3409
-6_DAS_2_rpr.pdb 13.45 3409
-6_DAS_3_rpr.pdb 15.54 3409
-6_DAS_4_rpr.pdb 11.6 3409
-6_DAS_5_rpr.pdb 15.56 3409
-6_DAS_6_rpr.pdb 12.22 3409
-6_DAS_7_rpr.pdb 17.78 3409
-6_DAS_8_rpr.pdb 17.76 3409
-6_DAS_9_rpr.pdb 14.87 3409
-6_DAS_10_rpr.pdb 28.96 3409
+6_Das_1_rpr.pdb 14.11 3409
+6_Das_2_rpr.pdb 13.45 3409
+6_Das_3_rpr.pdb 15.54 3409
+6_Das_4_rpr.pdb 11.6 3409
+6_Das_5_rpr.pdb 15.56 3409
+6_Das_6_rpr.pdb 12.22 3409
+6_Das_7_rpr.pdb 17.78 3409
+6_Das_8_rpr.pdb 17.76 3409
+6_Das_9_rpr.pdb 14.87 3409
+6_Das_10_rpr.pdb 28.96 3409
 6_Dokholyan_1_rpr.pdb 26.06 3409
 6_Dokholyan_2_rpr.pdb 26.55 3409
 6_Dokholyan_3_rpr.pdb 26.18 3409
