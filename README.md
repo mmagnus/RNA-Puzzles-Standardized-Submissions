@@ -35,6 +35,13 @@ The RNA Puzzles:
 - Puzzle 21: Guanidine III riboswitch
 - Puzzle 24: Adenovirus virus-associated RNA
 
+Predictions with ligands (see files in subfolder "raw" of given Puzzle):
+
+- Puzzle  4: SAM-I riboswitch aptamer (Das only)
+- Puzzle  9: 5-hydroxytryptophan aptamer (Bujnicki only)
+- Puzzle 13: ZMP riboswitch (Das only)
+- Puzzle 21: Guanidine III riboswitch (Adamiak, Chen, Das, Adamiak, Sanbonmatsu)
+
 Please Cite:
 
 M. Magnus, M. Antczak, T. Zok, J. Wiedemann, P. Lukasiak, Y. Cao, Y. Cao, J. M. Bujnicki, E. Westhof, M. Szachniuk, and Z. Miao, “RNA-Puzzles toolkit: a computational resource of RNA 3D structure benchmark datasets, structure manipulation, and evaluation tools.,” Nucleic Acids Research, vol. 224, p. 759, Dec. 2019.
