@@ -40,7 +40,7 @@ Predictions with ligands (see files in subfolder "raw" of given Puzzle):
 - Puzzle  4: SAM-I riboswitch aptamer (Das only)
 - Puzzle  9: 5-hydroxytryptophan aptamer (Bujnicki only)
 - Puzzle 13: ZMP riboswitch (Das only)
-- Puzzle 21: Guanidine III riboswitch (Adamiak, Chen, Das, Adamiak, Sanbonmatsu)
+- Puzzle 21: Guanidine III riboswitch (Adamiak, Chen, Das, Sanbonmatsu)
 
 Please Cite:
 
