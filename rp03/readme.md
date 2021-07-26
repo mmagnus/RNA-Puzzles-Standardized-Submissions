@@ -15,11 +15,11 @@ CUCUGGAGAGAACCGUUUAAUCGGUCGCCGAAGGAGCAAGCUCUGCGCAUAUGCAGAGUGAAACUCUCAGGCAAAAGGAC
 
 rpr:
 
-	for i in `ls *.pdb`; do rna_pdb_tools.py --get_rnapuzzle_ready $i > ${i/.pdb/_rpr.pdb}; done
+	for i in `ls *.pdb`; do rna_pdb_tools.py --get-rnapuzzle-ready $i > ${i/.pdb/_rpr.pdb}; done
 
 Calc RMSD:
 
-    rna_calc_rmsd.py -t 3_solution_0_rpr.pdb --target_selection A:1-47+49+51+53-84 --model_selection A:1-47+49+51+53-84 *.pdb
+    rna_calc_rmsd.py -t 3_solution_0_rpr.pdb --target-selection A:1-47+49+51+53-84 --model-selection A:1-47+49+51+53-84 *.pdb
     rmsd_calc_rmsd_to_target
     --------------------------------------------------------------------------------
     method: all-atom-built-in
