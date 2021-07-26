@@ -15,7 +15,7 @@ CUCUGGAGAGAACCGUUUAAUCGGUCGCCGAAGGAGCAAGCUCUGCGCAUAUGCAGAGUGAAACUCUCAGGCAAAAGGAC
 
 rpr:
 
-	for i in `ls *.pdb`; do rna_pdb_tools.py --get-rnapuzzle-ready $i > ${i/.pdb/_rpr.pdb}; done
+	for i in `ls *.pdb`; do rna_pdb_toolsx.py --get-rnapuzzle-ready $i > ${i/.pdb/_rpr.pdb}; done
 
 Calc RMSD:
 
