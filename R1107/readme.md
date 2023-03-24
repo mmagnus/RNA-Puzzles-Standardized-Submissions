@@ -1,0 +1,6 @@
+# R1107T - human CPEB3 HDV-like ribozyme
+
+	> R1107TS232_1 0:1-69
+	GGGGGCCACAGCAGAAGCGUUCACGUCGCAGCCCCUGUCAGCCAUUGCACUCCGGCUGCGAAUUCUGCU
+	
+https://predictioncenter.org/casp15/rna_results.cgi?target=R1107	
