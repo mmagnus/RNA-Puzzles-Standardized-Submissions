@@ -4,6 +4,8 @@ Look for other our projects at https://github.com/RNA-Puzzles
 
 Please Cite:
 
+M. Magnus, M. Antczak, T. Zok, J. Wiedemann, P. Lukasiak, Y. Cao, Y. Cao, J. M. Bujnicki, E. Westhof, M. Szachniuk, and Z. Miao, “RNA-Puzzles toolkit: a computational resource of RNA 3D structure benchmark datasets, structure manipulation, and evaluation tools.,” Nucleic Acids Research, vol. 224, p. 759, Dec. 2019.
+
 [![](https://img.shields.io/badge/doi-RNA--Puzzles%20toolkit%40Nucleic%20Acid%20Research-success.svg)](http://dx.doi.org/10.1093/nar/gkz1108)
 
 [![Twitter Follow](http://img.shields.io/twitter/follow/rna_tools.svg?style=social&label=Follow)](https://twitter.com/rna_pdb_tools) [![tag](https://img.shields.io/github/release/mmagnus/RNA-Puzzles-Normalized-submissions.svg)](https://github.com/mmagnus/RNA-Puzzles-Normalized-submissions/releases)
