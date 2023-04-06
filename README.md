@@ -45,6 +45,8 @@ Predictions with ligands (see files in subfolder "raw" of given Puzzle):
 CASP15:
 
 - R1107 human CPEB3 HDV-like ribozyme (PDB ID: 7QR4, 7QR3)
+- R1116 Cloverleaf RNA, Poliovirus
+
 Please Cite:
 
 M. Magnus, M. Antczak, T. Zok, J. Wiedemann, P. Lukasiak, Y. Cao, Y. Cao, J. M. Bujnicki, E. Westhof, M. Szachniuk, and Z. Miao, “RNA-Puzzles toolkit: a computational resource of RNA 3D structure benchmark datasets, structure manipulation, and evaluation tools.,” Nucleic Acids Research, vol. 224, p. 759, Dec. 2019.
